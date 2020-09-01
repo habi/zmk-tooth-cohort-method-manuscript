@@ -21,10 +21,8 @@ authors:
     email: ruslan.hlushchuk@ana.unibe.ch
     affiliations:
       - Institute of Anatomy, University of Bern, Switzerland
-  - github: johndoe
-    name: Thomas Gerhard Wolf
+  - name: Thomas Gerhard Wolf
     initials: TW
-    scopus: 55669460200
     email: thomas.wolf@zmk.unibe.ch
     affiliations:
       - Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland
