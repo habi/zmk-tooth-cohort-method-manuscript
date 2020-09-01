@@ -1,89 +1,12 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- "David Haberth\xFCr"
+- Ruslan Hlushchuk
+- Thomas Gerhard Wolf
 bibliography:
 - content/manual-references.json
 date-meta: '2020-09-01'
-header-includes: '<!--
-
-  Manubot generated metadata rendered from header-includes-template.html.
-
-  Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
-
-  -->
-
-  <meta name="dc.format" content="text/html" />
-
-  <meta name="dc.title" content="Manuscript Title" />
-
-  <meta name="citation_title" content="Manuscript Title" />
-
-  <meta property="og:title" content="Manuscript Title" />
-
-  <meta property="twitter:title" content="Manuscript Title" />
-
-  <meta name="dc.date" content="2020-09-01" />
-
-  <meta name="citation_publication_date" content="2020-09-01" />
-
-  <meta name="dc.language" content="en-US" />
-
-  <meta name="citation_language" content="en-US" />
-
-  <meta name="dc.relation.ispartof" content="Manubot" />
-
-  <meta name="dc.publisher" content="Manubot" />
-
-  <meta name="citation_journal_title" content="Manubot" />
-
-  <meta name="citation_technical_report_institution" content="Manubot" />
-
-  <meta name="citation_author" content="John Doe" />
-
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-
-  <meta name="twitter:creator" content="@johndoe" />
-
-  <meta name="citation_author" content="Jane Roe" />
-
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-
-  <link rel="canonical" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
-
-  <meta property="og:url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
-
-  <meta property="twitter:url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
-
-  <meta name="citation_fulltext_html_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
-
-  <meta name="citation_pdf_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
-
-  <link rel="alternate" type="application/pdf" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
-
-  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/2749b074c11fa55e4af2c777943218040ff59283/" />
-
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/2749b074c11fa55e4af2c777943218040ff59283/" />
-
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/2749b074c11fa55e4af2c777943218040ff59283/manuscript.pdf" />
-
-  <meta property="og:type" content="article" />
-
-  <meta property="twitter:card" content="summary_large_image" />
-
-  <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
-
-  <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
-
-  <meta name="theme-color" content="#ad1457" />
-
-  <!-- end Manubot generated metadata -->'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth\" />\n<meta name=\"citation_title\" content=\"Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth\" />\n<meta property=\"og:title\" content=\"Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth\" />\n<meta property=\"twitter:title\" content=\"Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth\" />\n<meta name=\"dc.date\" content=\"2020-09-01\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-01\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"David Haberth\xFCr\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3388-9187\" />\n<meta name=\"twitter:creator\" content=\"@habi\" />\n<meta name=\"citation_author\" content=\"Ruslan Hlushchuk\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6722-8996\" />\n<meta name=\"citation_author\" content=\"Thomas Gerhard Wolf\" />\n<meta name=\"citation_author_institution\" content=\"Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Periodontology and Operative Dentistry, University Medical Center of the Johannes-Gutenberg-University Mainz, Mainz, Germany\" />\n<link rel=\"canonical\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"og:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/b1d7429222dcbbfc92eff4bbfded4975723d2469/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/b1d7429222dcbbfc92eff4bbfded4975723d2469/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/b1d7429222dcbbfc92eff4bbfded4975723d2469/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -93,7 +16,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth
 ...
 
 
@@ -103,9 +26,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/2749b074c11fa55e4af2c777943218040ff59283/))
+([permalink](https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/b1d7429222dcbbfc92eff4bbfded4975723d2469/))
 was automatically generated
-from [habi/zmk-tooth-cohort-method-manuscript@2749b07](https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/2749b074c11fa55e4af2c777943218040ff59283)
+from [habi/zmk-tooth-cohort-method-manuscript@b1d7429](https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/b1d7429222dcbbfc92eff4bbfded4975723d2469)
 on September 1, 2020.
 </em></small>
 
@@ -113,25 +36,31 @@ on September 1, 2020.
 
 
 
-+ **John Doe**<br>
++ **David Haberthür**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0003-3388-9187](https://orcid.org/0000-0003-3388-9187)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [habi](https://github.com/habi)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [habi](https://twitter.com/habi)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     Institute of Anatomy, University of Bern, Switzerland
   </small>
 
-+ **Jane Roe**<br>
++ **Ruslan Hlushchuk**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0002-6722-8996](https://orcid.org/0000-0002-6722-8996)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [RuslanHlushchukh](https://github.com/RuslanHlushchukh)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Institute of Anatomy, University of Bern, Switzerland
+  </small>
+
++ **Thomas Gerhard Wolf**<br>
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [johndoe](https://github.com/johndoe)<br>
+  <small>
+     Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland; Department of Periodontology and Operative Dentistry, University Medical Center of the Johannes-Gutenberg-University Mainz, Mainz, Germany
   </small>
 
 
