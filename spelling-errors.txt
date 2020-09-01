@@ -17,7 +17,7 @@ NRecon
 Periodontology
 reproducibly
 Ruslan
-RuslanHlushchukh
+RuslanHlushchuk
 SkyScan
 totalling
 voxel
