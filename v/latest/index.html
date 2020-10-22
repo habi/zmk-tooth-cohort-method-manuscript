@@ -7,7 +7,7 @@
   <meta name="author" content="David Haberthür" />
   <meta name="author" content="Ruslan Hlushchuk" />
   <meta name="author" content="Thomas Gerhard Wolf" />
-  <meta name="dcterms.date" content="2020-09-01" />
+  <meta name="dcterms.date" content="2020-10-22" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth</title>
   <style>
@@ -30,8 +30,8 @@
   <meta name="citation_title" content="Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth" />
   <meta property="og:title" content="Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth" />
   <meta property="twitter:title" content="Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth" />
-  <meta name="dc.date" content="2020-09-01" />
-  <meta name="citation_publication_date" content="2020-09-01" />
+  <meta name="dc.date" content="2020-10-22" />
+  <meta name="citation_publication_date" content="2020-10-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -48,15 +48,16 @@
   <meta name="citation_author" content="Thomas Gerhard Wolf" />
   <meta name="citation_author_institution" content="Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland" />
   <meta name="citation_author_institution" content="Department of Periodontology and Operative Dentistry, University Medical Center of the Johannes-Gutenberg-University Mainz, Mainz, Germany" />
+  <meta name="citation_author_orcid" content="0000-0002-4044-1893" />
   <link rel="canonical" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
   <meta property="og:url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
   <meta property="twitter:url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/c09990257a484ef0ffa14bf368d4bb2f9d6ae873/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/c09990257a484ef0ffa14bf368d4bb2f9d6ae873/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/c09990257a484ef0ffa14bf368d4bb2f9d6ae873/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/cf22f9efeb25de8fe4e2d0c9581d63b5576e049e/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/cf22f9efeb25de8fe4e2d0c9581d63b5576e049e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/cf22f9efeb25de8fe4e2d0c9581d63b5576e049e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,10 +71,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/c09990257a484ef0ffa14bf368d4bb2f9d6ae873/">permalink</a>)
+(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/cf22f9efeb25de8fe4e2d0c9581d63b5576e049e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/c09990257a484ef0ffa14bf368d4bb2f9d6ae873">habi/zmk-tooth-cohort-method-manuscript@c099902</a>
-on September 1, 2020.
+from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/cf22f9efeb25de8fe4e2d0c9581d63b5576e049e">habi/zmk-tooth-cohort-method-manuscript@cf22f9e</a>
+on October 22, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -95,7 +96,9 @@ Institute of Anatomy, University of Bern, Switzerland
 <small>
 Institute of Anatomy, University of Bern, Switzerland
 </small></p></li>
-<li><p><strong>Thomas Gerhard Wolf</strong><br><br>
+<li><p><strong>Thomas Gerhard Wolf</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0002-4044-1893">0000-0002-4044-1893</a><br>
 <small>
 Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland; Department of Periodontology and Operative Dentistry, University Medical Center of the Johannes-Gutenberg-University Mainz, Mainz, Germany
 </small></p></li>
@@ -378,7 +381,8 @@ The irregular illumination stems from the rudimentary stitching process and is n
     }
 
     /* figure image element */
-    figure img {
+    figure > img,
+    figure > svg {
         max-width: 100%;
         display: block;
         margin-left: auto;
@@ -386,7 +390,8 @@ The irregular illumination stems from the rudimentary stitching process and is n
     }
 
     /* figure auto-number */
-    img + figcaption > span:first-of-type {
+    img + figcaption > span:first-of-type,
+    svg + figcaption > span:first-of-type {
         font-weight: bold;
         margin-right: 5px;
     }
@@ -966,7 +971,8 @@ The irregular illumination stems from the rudimentary stitching process and is n
         }
 
         /* tooltip copy of <img> */
-        #tooltip_content > figure > img {
+        #tooltip_content > figure > img,
+        #tooltip_content > figure > svg {
             max-height: 260px;
         }
 
@@ -1217,7 +1223,7 @@ The irregular illumination stems from the rudimentary stitching process and is n
 
     @media only screen {
         /* regular <img> in document when hovered */
-        .lightbox_document_img:hover {
+        img.lightbox_document_img:hover {
             cursor: pointer;
         }
 
@@ -2899,8 +2905,6 @@ The irregular illumination stems from the rudimentary stitching process and is n
             window.addEventListener('load', start);
     })();
 </script>
-<!-- table of contents plugin -->
-
 <script>
     (function() {
         // /////////////////////////
@@ -2923,10 +2927,13 @@ The irregular illumination stems from the rudimentary stitching process and is n
             // which types of elements to add links for, in
             // "document.querySelector" format
             typesQuery: 'h1, h2, h3',
-            // whether default behavior is to be closed ('false'), open
-            // ('true'), or only open when screen wide enough to fit panel
-            // ('auto'). note: still always starts closed when page loads.
-            open: 'auto',
+            // whether toc starts open. use 'true' or 'false', or 'auto' to
+            // use 'true' behavior when screen wide enough and 'false' when not
+            startOpen: 'false',
+            // whether toc closes when clicking on toc link. use 'true' or
+            // 'false', or 'auto' to use 'false' behavior when screen wide
+            // enough and 'true' when not
+            clickClose: 'auto',
             // if list item is more than this many characters, text will be
             // truncated
             charLimit: '50',
@@ -2951,13 +2958,21 @@ The irregular illumination stems from the rudimentary stitching process and is n
             if (!panel)
                 return;
             makeEntries(panel);
+            // attach panel to document after making entries, so 'toc' heading
+            // in panel isn't included in toc
             document.body.insertBefore(panel, document.body.firstChild);
 
-            closePanel();
+            // initial panel state
+            if (
+                options.startOpen === 'true' ||
+                (options.startOpen === 'auto' && !isSmallScreen())
+            )
+                openPanel();
+            else
+                closePanel();
 
             // attach click, scroll, and hash change listeners to window
             window.addEventListener('click', onClick);
-            window.addEventListener('touchstart', onClick);
             window.addEventListener('scroll', onScroll);
             window.addEventListener('hashchange', onScroll);
             window.addEventListener('keyup', onKeyUp);
@@ -2975,25 +2990,10 @@ The irregular illumination stems from the rudimentary stitching process and is n
             return window.innerWidth < 816 + 260 * 2;
         }
 
-        // open/close panel based on option and screen size
-        function openOrClosePanel() {
-            if (
-                options.open === 'true' ||
-                (options.open === 'auto' && !isSmallScreen())
-            )
-                openPanel();
-            else
-                closePanel();
-        }
-
         // when mouse is clicked anywhere in window
         function onClick() {
-            const panel = document.getElementById('toc_panel');
-            if (!panel)
-                return;
-
-            if (panel.dataset.open === 'true')
-                openOrClosePanel();
+            if (isSmallScreen())
+                closePanel();
         }
 
         // when window is scrolled or hash changed
@@ -3075,8 +3075,8 @@ The irregular illumination stems from the rudimentary stitching process and is n
             button.classList.add('icon_button');
 
             // create header text
-            const text = document.createElement('h3');
-            text.innerHTML = 'View Table of Contents';
+            const text = document.createElement('h4');
+            text.innerHTML = 'Table of Contents';
 
             // create container for toc list
             const list = document.createElement('div');
@@ -3153,8 +3153,14 @@ The irregular illumination stems from the rudimentary stitching process and is n
         }
 
         // when link is clicked
-        function onLinkClick() {
-            openOrClosePanel();
+        function onLinkClick(event) {
+            if (
+                options.clickClose === 'true' ||
+                (options.clickClose === 'auto' && isSmallScreen())
+            )
+                closePanel();
+            else
+                openPanel();
         }
 
         // open panel if closed, close if opened
@@ -3964,7 +3970,7 @@ The irregular illumination stems from the rudimentary stitching process and is n
             window.addEventListener('load', start);
     })();
 </script>
-<!-- math plugin configuration -->
+<!-- mathjax plugin configuration -->
 
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -3972,12 +3978,16 @@ The irregular illumination stems from the rudimentary stitching process and is n
         "HTML-CSS": { linebreaks: { automatic: true } },
         "SVG": { linebreaks: { automatic: true } },
         "fast-preview": { disabled: true }
-    });
+  });
 </script>
 
-<!-- math plugin -->
+<!-- mathjax plugin -->
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+    integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A=="
+    crossorigin="anonymous"
+>
     // /////////////////////////
     // DESCRIPTION
     // /////////////////////////
