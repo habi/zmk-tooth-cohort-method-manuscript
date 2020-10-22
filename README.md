@@ -1,6 +1,4 @@
-# Automated scholarly manuscripts on GitHub
-
-<!-- usage note: edit the H1 title above to personalize the manuscript -->
+# Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://habi.github.io/zmk-tooth-cohort-method-manuscript/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf)
@@ -10,10 +8,10 @@
 
 ## Manuscript description
 
-<!-- usage note: edit this section. -->
+This repository contains the manuscript about the analyis of the large cohort of teeth.
+We wrote the manuscript collaboratively on [manuscripts.io](https://www.manuscripts.io/) but I wanto to keep it safe with an GitHub repository that runs [`manubot`](https://manubot.org) (see below for details).
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+The code which accompagnies the manuscript can be found in this repository here: http://github.com/habi/zmk-tooth-cohort
 
 ## Manubot
 
