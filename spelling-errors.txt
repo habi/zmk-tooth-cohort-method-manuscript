@@ -7,6 +7,7 @@ datasets
 Djonov
 endodontic
 Fazzari
+foramen
 Gerhard
 Haberthür
 habi
@@ -32,6 +33,7 @@ TGW
 totalling
 trepanation
 Unversity
+vivo
 voxel
 XIMEA
 xiRAY
