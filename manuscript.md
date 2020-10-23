@@ -5,8 +5,8 @@ author-meta:
 - Thomas Gerhard Wolf
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-22'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth\" />\n<meta name=\"citation_title\" content=\"Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth\" />\n<meta property=\"og:title\" content=\"Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth\" />\n<meta property=\"twitter:title\" content=\"Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth\" />\n<meta name=\"dc.date\" content=\"2020-10-22\" />\n<meta name=\"citation_publication_date\" content=\"2020-10-22\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"David Haberth\xFCr\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3388-9187\" />\n<meta name=\"twitter:creator\" content=\"@habi\" />\n<meta name=\"citation_author\" content=\"Ruslan Hlushchuk\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6722-8996\" />\n<meta name=\"citation_author\" content=\"Thomas Gerhard Wolf\" />\n<meta name=\"citation_author_institution\" content=\"Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Periodontology and Operative Dentistry, University Medical Center of the Johannes-Gutenberg-University Mainz, Mainz, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4044-1893\" />\n<link rel=\"canonical\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"og:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/cf22f9efeb25de8fe4e2d0c9581d63b5576e049e/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/cf22f9efeb25de8fe4e2d0c9581d63b5576e049e/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/cf22f9efeb25de8fe4e2d0c9581d63b5576e049e/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-10-23'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth\" />\n<meta name=\"citation_title\" content=\"Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth\" />\n<meta property=\"og:title\" content=\"Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth\" />\n<meta property=\"twitter:title\" content=\"Automatic workflow for the analysis of large batches of micro-tomographic scans of human teeth\" />\n<meta name=\"dc.date\" content=\"2020-10-23\" />\n<meta name=\"citation_publication_date\" content=\"2020-10-23\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"David Haberth\xFCr\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3388-9187\" />\n<meta name=\"twitter:creator\" content=\"@habi\" />\n<meta name=\"citation_author\" content=\"Ruslan Hlushchuk\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6722-8996\" />\n<meta name=\"citation_author\" content=\"Thomas Gerhard Wolf\" />\n<meta name=\"citation_author_institution\" content=\"Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Periodontology and Operative Dentistry, University Medical Center of the Johannes-Gutenberg-University Mainz, Mainz, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4044-1893\" />\n<link rel=\"canonical\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"og:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/d69dcdc2edaa3afa9f119e37730d3c6c80ad932b/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/d69dcdc2edaa3afa9f119e37730d3c6c80ad932b/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/d69dcdc2edaa3afa9f119e37730d3c6c80ad932b/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -26,17 +26,17 @@ title: Automatic workflow for the analysis of large batches of micro-tomographic
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/cf22f9efeb25de8fe4e2d0c9581d63b5576e049e/))
+([permalink](https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/d69dcdc2edaa3afa9f119e37730d3c6c80ad932b/))
 was automatically generated
-from [habi/zmk-tooth-cohort-method-manuscript@cf22f9e](https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/cf22f9efeb25de8fe4e2d0c9581d63b5576e049e)
-on October 22, 2020.
+from [habi/zmk-tooth-cohort-method-manuscript@d69dcdc](https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/d69dcdc2edaa3afa9f119e37730d3c6c80ad932b)
+on October 23, 2020.
 </em></small>
 
 ## Authors
 
 
 
-+ **David Haberthür**<br>
++ **David Haberthür**<sup>✉</sup><br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-3388-9187](https://orcid.org/0000-0003-3388-9187)
     · ![GitHub icon](images/github.svg){.inline_icon}
@@ -47,7 +47,7 @@ on October 22, 2020.
      Institute of Anatomy, University of Bern, Switzerland
   </small>
 
-+ **Ruslan Hlushchuk**<br>
++ **Ruslan Hlushchuk**<sup>☯</sup><br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-6722-8996](https://orcid.org/0000-0002-6722-8996)
     · ![GitHub icon](images/github.svg){.inline_icon}
@@ -56,7 +56,7 @@ on October 22, 2020.
      Institute of Anatomy, University of Bern, Switzerland
   </small>
 
-+ **Thomas Gerhard Wolf**<br>
++ **Thomas Gerhard Wolf**<sup>☯</sup><br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-4044-1893](https://orcid.org/0000-0002-4044-1893)<br>
   <small>
@@ -64,6 +64,9 @@ on October 22, 2020.
   </small>
 
 
+<sup>☯</sup>: These authors contributed equally to this work.
+
+<sup>✉</sup>: Corresponding author; Correspondence preferred via [GitHub Issues](https://github.com/habi/zmk-tooth-cohort-method-manuscript/issues). Otherwise, send a message to <haberthuer@ana.unibe.ch>.
 
 ## Abstract {.page_break_before}
 
