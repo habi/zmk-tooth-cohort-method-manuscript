@@ -1,5 +1,7 @@
 content/00.front-matter.md:55:habi
-content/02.introduction.md:3:reproducibly
+content/02.introduction.md:3:endodontic
+content/02.introduction.md:6:endodontic
+content/02.introduction.md:7:trepanation
 content/03.materials.methods.md:7:microtomography
 content/03.materials.methods.md:9:Bruker
 content/03.materials.methods.md:9:Bruker
@@ -21,7 +23,10 @@ content/03.materials.methods.md:24:totalling
 content/03.materials.methods.md:28:Jupyter
 content/03.materials.methods.md:34:dataframe
 content/04.results.discussion.md:3:reproducibly
-content/05.conclusions.md:3:reproducibly
+content/05.conclusions.md:3:datasets
+content/05.conclusions.md:4:datasets
+content/05.conclusions.md:5:datasets
+content/05.conclusions.md:5:reproducibility
 content/06.acknowledgements.md:1:Acknowledgements
 content/06.acknowledgements.md:3:Khoma
 content/06.acknowledgements.md:3:Oleksiy

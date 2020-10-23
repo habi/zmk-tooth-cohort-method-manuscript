@@ -5,6 +5,7 @@ Bruker
 dataframe
 datasets
 Djonov
+endodontic
 Fazzari
 Gerhard
 Haberthür
@@ -21,6 +22,7 @@ microtomography
 NRecon
 Oleksiy
 Periodontology
+reproducibility
 reproducibly
 Ruslan
 RuslanHlushchuk
@@ -28,6 +30,7 @@ SkyScan
 Stiebritz
 TGW
 totalling
+trepanation
 Unversity
 voxel
 XIMEA
