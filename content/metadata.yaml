@@ -14,6 +14,7 @@ authors:
     email: david.haberthuer@ana.unibe.ch
     affiliations:
       - Institute of Anatomy, University of Bern, Switzerland
+    symbol_str: "✉"
   - github: RuslanHlushchuk
     name: Ruslan Hlushchuk
     initials: RH
@@ -21,6 +22,7 @@ authors:
     email: ruslan.hlushchuk@ana.unibe.ch
     affiliations:
       - Institute of Anatomy, University of Bern, Switzerland
+    symbol_str: "☯"
   - name: Thomas Gerhard Wolf
     initials: TW
     orcid: 0000-0002-4044-1893
@@ -28,3 +30,4 @@ authors:
     affiliations:
       - Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland
       - Department of Periodontology and Operative Dentistry, University Medical Center of the Johannes-Gutenberg-University Mainz, Mainz, Germany
+    symbol_str: "☯"
