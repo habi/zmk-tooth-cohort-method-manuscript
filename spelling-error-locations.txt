@@ -20,3 +20,17 @@ content/03.materials.methods.md:22:voxel
 content/03.materials.methods.md:24:totalling
 content/03.materials.methods.md:28:Jupyter
 content/03.materials.methods.md:34:dataframe
+content/04.results.discussion.md:3:reproducibly
+content/05.conclusions.md:3:reproducibly
+content/06.acknowledgements.md:1:Acknowledgements
+content/06.acknowledgements.md:3:Khoma
+content/06.acknowledgements.md:3:Oleksiy
+content/06.acknowledgements.md:3:Unversity
+content/06.acknowledgements.md:3:Zakhar
+content/06.acknowledgements.md:4:Fazzari
+content/06.acknowledgements.md:4:Unversity
+content/06.acknowledgements.md:5:Anderegg
+content/06.acknowledgements.md:5:Djonov
+content/06.acknowledgements.md:5:Stiebritz
+content/06.acknowledgements.md:5:Unversity
+content/06.contributions.md:5:TGW
