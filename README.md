@@ -9,7 +9,7 @@
 ## Manuscript description
 
 This repository contains the manuscript about the analyis of the large cohort of teeth.
-We wrote the manuscript collaboratively on [manuscripts.io](https://www.manuscripts.io/) but I wanto to keep it safe with an GitHub repository that runs [`manubot`](https://manubot.org) (see below for details).
+We wrote the manuscript collaboratively on [manuscripts.io](https://www.manuscripts.io/) but I want to to keep it safe with an GitHub repository that runs [`manubot`](https://manubot.org) (see below for details).
 
 The code which accompagnies the manuscript can be found in this repository here: http://github.com/habi/zmk-tooth-cohort
 
