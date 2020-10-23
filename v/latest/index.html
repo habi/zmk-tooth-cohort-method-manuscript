@@ -55,9 +55,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/329d67f29e65fe9bda91a0671f938c2cc5c6bb41/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/329d67f29e65fe9bda91a0671f938c2cc5c6bb41/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/329d67f29e65fe9bda91a0671f938c2cc5c6bb41/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/83387299e73e8ba8f1400fbdb53d2bf11b506038/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/83387299e73e8ba8f1400fbdb53d2bf11b506038/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/83387299e73e8ba8f1400fbdb53d2bf11b506038/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/329d67f29e65fe9bda91a0671f938c2cc5c6bb41/">permalink</a>)
+(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/83387299e73e8ba8f1400fbdb53d2bf11b506038/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/329d67f29e65fe9bda91a0671f938c2cc5c6bb41">habi/zmk-tooth-cohort-method-manuscript@329d67f</a>
+from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/83387299e73e8ba8f1400fbdb53d2bf11b506038">habi/zmk-tooth-cohort-method-manuscript@8338729</a>
 on October 23, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -106,16 +106,21 @@ Department of Restorative, Preventive and Pediatric Dentistry, School of Dental 
 <p><sup>☯</sup>: These authors contributed equally to this work.</p>
 <p><sup>✉</sup>: Corresponding author; Correspondence preferred via <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/issues">GitHub Issues</a>. Otherwise, send a message to <a href="mailto:haberthuer@ana.unibe.ch" class="email">haberthuer@ana.unibe.ch</a>.</p>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
-<p>The abstract will be written at the end, here are some key points</p>
+<p>Micro-CT is a powerful tool to analyze and visualize the internal morphology of human permanent teeth.
+It is increasingly used for investigation of epidemiological questions to provide the dentist with necessary information that is prerequisite for successful endodontic treatment.
+The aim of the present paper was to propose an automated image processing method to automate parts of the work needed to fully describe the internal morphology of human permanent teeth.
+104 human teeth were scanned on a high-resolution micro-CT using an automatic specimen changer.
+Python code in a Jupyter notebook was used to verify and to process the scans and to prepare the datasets for description of the internal morphology and to measure the apical region of the tooth.
+The presented method offers an easy, non-destructive, rapid and efficient approach to scan, check and preview micro-computer tomographic datasets of a large number of teeth.
+It is a helpful tool for the detailed description and characterization of the internal morphology of human permanent teeth using automated segmentation by means of micro-CT with full reproducibility and high standardization.</p>
+<h2 id="keywords">Keywords</h2>
 <ul>
-<li>Python</li>
-<li>Only free and open-source software</li>
-<li>Image analysis</li>
-<li>Fully reproducible research</li>
-<li>Efficiently done, already during scan of parts of the batch.
-New scans are just dumped on the script to process.</li>
-<li>Probably not possible manually in the needed time-frame or extremely cumbersome (huge batch-process).</li>
-<li>Everyone can do/check it, show it in Binder!</li>
+<li>Automated segmentation</li>
+<li>Biomedical image analysis</li>
+<li>Internal tooth morphology</li>
+<li>Micro-CT</li>
+<li>Physiological foramen geometry</li>
+<li>Root canal configuration</li>
 </ul>
 <h2 class="page_break_before" id="introduction">Introduction</h2>
 <p>Successful endodontic treatments require a precise knowledge of the external and internal morphology of the teeth <span class="citation" data-cites="doi:10.1016/0030-4220">[<span class="citeproc-not-found" data-reference-id="doi:10.1016/0030-4220"><strong>???</strong></span>]</span>.
@@ -125,6 +130,17 @@ It also helps to avoid errors that can occur during various steps of clinical en
 The errors include, for example, frequently occurring perforations during trepanation or failure in preparing the root canals.
 A detailed description and understanding of the root canal system are essential for the clinical practitioner.
 Nowadays, in the literature there are numerous imaging methods for the morphological description of teeth, such as clearing technique <span class="citation" data-cites="11Kln4Lf0">[<a href="#ref-11Kln4Lf0" role="doc-biblioref">2</a>]</span>, optical microscopy <span class="citation" data-cites="gA7iMD0q">[<a href="#ref-gA7iMD0q" role="doc-biblioref">3</a>]</span>, two-dimensional radiography, scanning electron microscopy, or three-dimensional imaging techniques such as cone beam computer tomography and micro-computed tomography (micro-CT) <span class="citation" data-cites="1HkTk4VKM">[<a href="#ref-1HkTk4VKM" role="doc-biblioref">4</a>]</span>.</p>
+<p>Micro-CT imaging is a method to non-destructively study objects of interest, namely biomedical samples at high resolution, i.e. in the micrometer range.
+Micro-CT imaging is well suited for the three-dimensional (3D) investigation of teeth since it needs no specialized sample preparation in contrast to what is often needed to image soft tissue samples <span class="citation" data-cites="XahGmSLJ TYAmre95 6C8eCzkj">[<a href="#ref-XahGmSLJ" role="doc-biblioref">5</a>–<a href="#ref-6C8eCzkj" role="doc-biblioref">7</a>]</span>.
+Combined with software rendering it is a non-destructive, high-resolution, 3D imaging technique that is able to precisely depict small morphological structures (&lt;20 µm) in teeth and thus provides information that is superior to other methods in <em>ex vivo</em> research and has therefore been suggested as a gold standard <span class="citation" data-cites="pTcCEU9H PQ2tbZFC 19T8cyNhk">[<a href="#ref-pTcCEU9H" role="doc-biblioref">8</a>–<a href="#ref-19T8cyNhk" role="doc-biblioref">10</a>]</span>.
+Micro-CT is increasingly used for investigation of epidemiological questions to provide the dentist with necessary information that is a prerequisite for successful endodontic treatment <span class="citation" data-cites="OttTicsv 19SVNdOdA RUBxFFUa">[<a href="#ref-OttTicsv" role="doc-biblioref">11</a>–<a href="#ref-RUBxFFUa" role="doc-biblioref">13</a>]</span>.</p>
+<p>Clinically relevant for the dentist are, on the one hand, the root canal configuration and, on the other hand, the physiological procedure.
+Both parameters are important, as they give information about the expected anatomical conditions and the size of the physiological foramen for clinical purposes.
+Due to the relatively low cost and batch-scanning capabilities of recent desktop micro-CT systems large cohorts of teeth can be scanned in a relatively short time, generating terabytes of raw data.
+Such a large amount of data necessitates an efficient, reproducible and automated framework to analyze such large batches of tomographic datasets.
+Previous works have already analyzed large batches of teeth, but only for a small region of each tooth <span class="citation" data-cites="amSKhLb1 DLVCfdzK">[<a href="#ref-amSKhLb1" role="doc-biblioref">14</a>,<a href="#ref-DLVCfdzK" role="doc-biblioref">15</a>]</span>, with considerable manual work for the segmentation of the tooth <span class="citation" data-cites="tAI440dD ZTgDEakx">[<a href="#ref-tAI440dD" role="doc-biblioref">16</a>,<a href="#ref-ZTgDEakx" role="doc-biblioref">17</a>]</span>.
+The hereby presented protocol provides an automated segmentation method for <em>ex vivo</em> research on extracted human teeth using a four-digit root canal configuration code as well as detection and measurement of the physiological foramen parameters.
+We achieve this by using free and open-source software <span class="citation" data-cites="11csWtgxP">[<a href="#ref-11csWtgxP" role="doc-biblioref">18</a>]</span>, the fact which we believe to considerably increase the potential impact of our work, e.g. making it widely available for collaborators and other users.</p>
 <h2 class="page_break_before" id="materials-methods">Materials &amp; Methods</h2>
 <h3 id="teeth">Teeth</h3>
 <p>Describe how the teeth have been collected and stored.</p>
@@ -133,7 +149,7 @@ Nowadays, in the literature there are numerous imaging methods for the morpholog
 To facilitate the scanning of this large batch of samples, we used the automatic sample changer to enable us to scan batches of 16 teeth without manual intervention.
 In addition to the sample changer, the machine is equipped with a Hamamatsu L11871_20 X-ray source and a XIMEA xiRAY16 camera.</p>
 <p>We used a custom-made sample-holder to scan the teeth on the sample changer.
-The sample holder has been 3d printed and is freely available online (https://git.io/JJbAZ) as part of a library of sample holders <span class="citation" data-cites="115PPSuQp">[<a href="#ref-115PPSuQp" role="doc-biblioref">5</a>]</span>.</p>
+The sample holder has been 3d printed and is freely available online (https://git.io/JJbAZ) as part of a library of sample holders <span class="citation" data-cites="115PPSuQp">[<a href="#ref-115PPSuQp" role="doc-biblioref">19</a>]</span>.</p>
 <p>The X-ray source was set to a tube voltage of 80.0 kV and a tube current of 125.0 µA, the x-ray spectrum was filtered by 1mm of Aluminium prior to incidence onto the sample.
 For each sample, we recorded a set of either 4 or 5 stacked scans overlapping the sample height, each stack was recorded with 482 projections of 1632 x 1092 pixels at every 0.4° over a 180° sample rotation.
 Every single projection was exposed for 950 ms, 3 projections were averaged to one to greatly reduce image noise.
@@ -144,10 +160,10 @@ The whole process resulted in datasets with an isometric voxel size of 10.0 µm.
 <p>We recorded on average 8.17 GB of raw data for each tooth, totalling to 849.59 GB for all the 104 teeth.</p>
 <h3 id="image-analysis">Image analysis</h3>
 <p>Already during scanning the first items of the batch, we wrote a Jupyter <span class="citation" data-cites="doi:10.3233/978-1-61499-649-1-87">[<span class="citeproc-not-found" data-reference-id="doi:10.3233/978-1-61499-649-1-87"><strong>???</strong></span>]</span> notebook with Python code which permitted to check the already performed scans as soon as they were reconstructed. Reruns of the notebook added newly scanned and reconstructed teeth to the analysis, facilitating preliminary checks and analysis of already scanned teeth.
-The notebook we used for the analysis presented in this manuscript is freely available online <span class="citation" data-cites="tZRGGuMm">[<a href="#ref-tZRGGuMm" role="doc-biblioref">6</a>]</span>.
+The notebook we used for the analysis presented in this manuscript is freely available online <span class="citation" data-cites="tZRGGuMm">[<a href="#ref-tZRGGuMm" role="doc-biblioref">20</a>]</span>.
 The important steps of the analysis steps are described in detail below.</p>
 <h4 id="preparation">Preparation</h4>
-<p>In a first step we extract all wanted parameters from the log file of each scan to store into a Pandas <span class="citation" data-cites="U5AcoDOX">[<a href="#ref-U5AcoDOX" role="doc-biblioref">7</a>]</span> dataframe for comparing and double-checking all the necessary scan parameters of each tooth scan with all the others.
+<p>In a first step we extract all wanted parameters from the log file of each scan to store into a Pandas <span class="citation" data-cites="U5AcoDOX">[<a href="#ref-U5AcoDOX" role="doc-biblioref">21</a>]</span> dataframe for comparing and double-checking all the necessary scan parameters of each tooth scan with all the others.
 Afterwards, we loaded the preview image of each scan and then generated an overview image of all the scans (see Figure <a href="#fig:overviews">1</a>).</p>
 <div id="fig:overviews" class="fignos">
 <figure>
@@ -193,14 +209,56 @@ This research did not receive any specific grant from funding agencies in the pu
 <div id="ref-1HkTk4VKM">
 <p>[4] T.G. Wolf, P. Kim, G. Campus, M. Stiebritz, M. Siegrist, B. Briseño-Marroquín, 3-Dimensional Analysis and Systematic Review of Root Canal Morphology and Physiological Foramen Geometry of 109 Mandibular First Premolars by Micro–computed Tomography in a Mixed Swiss-German Population, Journal of Endodontics. 46 (2020) 801–809. <a href="https://doi.org/10.1016/j.joen.2020.03.002">https://doi.org/10.1016/j.joen.2020.03.002</a>.</p>
 </div>
+<div id="ref-XahGmSLJ">
+<p>[5] E. PAUWELS, D. VAN LOO, P. CORNILLIE, L. BRABANT, L. VAN HOOREBEKE, An exploratory study of contrast agents for soft tissue visualization by means of high resolution X-ray computed tomography imaging, Journal of Microscopy. 250 (2013) 21–31. <a href="https://doi.org/10.1111/jmi.12013">https://doi.org/10.1111/jmi.12013</a>.</p>
+</div>
+<div id="ref-TYAmre95">
+<p>[6] R. Hlushchuk, D. Haberthür, V. Djonov, Ex vivo microangioCT: Advances in microvascular imaging, Vascular Pharmacology. 112 (2019) 2–7. <a href="https://doi.org/10.1016/j.vph.2018.09.003">https://doi.org/10.1016/j.vph.2018.09.003</a>.</p>
+</div>
+<div id="ref-6C8eCzkj">
+<p>[7] Q. Wang, Y. Yu, K. Pan, J. Liu, Liquid Metal Angiography for Mega Contrast X-Ray Visualization of Vascular Network in Reconstructing <em>In-Vitro</em> Organ Anatomy, IEEE Transactions on Biomedical Engineering. 61 (2014) 2161–2166. <a href="https://doi.org/10.1109/tbme.2014.2317554">https://doi.org/10.1109/tbme.2014.2317554</a>.</p>
+</div>
+<div id="ref-pTcCEU9H">
+<p>[8] G. Plotino, N.M. Grande, R. Pecci, R. Bedini, C.H. Pameijer, F. Somma, Three-dimensional imaging using microcomputed tomography for studying tooth macromorphology, The Journal of the American Dental Association. 137 (2006) 1555–1561. <a href="https://doi.org/10.14219/jada.archive.2006.0091">https://doi.org/10.14219/jada.archive.2006.0091</a>.</p>
+</div>
+<div id="ref-PQ2tbZFC">
+<p>[9] R. Ordinola-Zapata, C.M. Bramante, M.A. Versiani, B.I. Moldauer, G. Topham, J.L. Gutmann, A. Nuñez, M.A.H. Duarte, F. Abella, Comparative accuracy of the Clearing Technique, CBCT and Micro-CT methods in studying the mesial root canal configuration of mandibular first molars, International Endodontic Journal. 50 (2017) 90–96. <a href="https://doi.org/10.1111/iej.12593">https://doi.org/10.1111/iej.12593</a>.</p>
+</div>
+<div id="ref-19T8cyNhk">
+<p>[10] J.S. Rhodes, T.R.P. Ford, J.A. Lynch, P.J. Liepins, R.V. Curtis, Micro‐computed tomography: a new tool for experimental endodontology, International Endodontic Journal. 32 (2001) 165–170. <a href="https://doi.org/10.1046/j.1365-2591.1999.00204.x">https://doi.org/10.1046/j.1365-2591.1999.00204.x</a>.</p>
+</div>
+<div id="ref-OttTicsv">
+<p>[11] T.G. Wolf, M. Stiebritz, N. Boemke, I. Elsayed, F. Paqué, R.J. Wierichs, B. Briseño-Marroquín, 3-dimensional Analysis and Literature Review of the Root Canal Morphology and Physiological Foramen Geometry of 125 Mandibular Incisors by Means of Micro–Computed Tomography in a German Population, Journal of Endodontics. 46 (2020) 184–191. <a href="https://doi.org/10.1016/j.joen.2019.11.006">https://doi.org/10.1016/j.joen.2019.11.006</a>.</p>
+</div>
+<div id="ref-19SVNdOdA">
+<p>[12] T.G. Wolf, C. Kozaczek, G. Campus, F. Paqué, R.J. Wierichs, Root canal morphology of 116 maxillary second premolars by micro-CT in a mixed Swiss-German population with systematic review, Journal of Endodontics. (2020). <a href="https://doi.org/10.1016/j.joen.2020.08.012">https://doi.org/10.1016/j.joen.2020.08.012</a>.</p>
+</div>
+<div id="ref-RUBxFFUa">
+<p>[13] R. Ordinola-Zapata, J.N.R. Martins, H. Plascencia, M.A. Versiani, C.M. Bramante, The MB3 canal in maxillary molars: a micro-CT study, Clinical Oral Investigations. 24 (2020) 4109–4121. <a href="https://doi.org/10.1007/s00784-020-03284-7">https://doi.org/10.1007/s00784-020-03284-7</a>.</p>
+</div>
+<div id="ref-amSKhLb1">
+<p>[14] T.G. Wolf, S. Wentaschek, R.J. Wierichs, B. Briseño-Marroquín, Interradicular Root Canals in Mandibular First Molars: A Literature Review and Ex Vivo Study, Journal of Endodontics. 45 (2019) 129–135. <a href="https://doi.org/10.1016/j.joen.2018.10.019">https://doi.org/10.1016/j.joen.2018.10.019</a>.</p>
+</div>
+<div id="ref-DLVCfdzK">
+<p>[15] F. Paqué, D. Ganahl, O.A. Peters, Effects of Root Canal Preparation on Apical Geometry Assessed by Micro–Computed Tomography, Journal of Endodontics. 35 (2009) 1056–1059. <a href="https://doi.org/10.1016/j.joen.2009.04.020">https://doi.org/10.1016/j.joen.2009.04.020</a>.</p>
+</div>
+<div id="ref-tAI440dD">
+<p>[16] T.G. Wolf, M. Stiebritz, N. Boemke, I. Elsayed, F. Paqué, R.J. Wierichs, B. Briseño-Marroquín, 3-dimensional Analysis and Literature Review of the Root Canal Morphology and Physiological Foramen Geometry of 125 Mandibular Incisors by Means of Micro–Computed Tomography in a German Population, Journal of Endodontics. 46 (2020) 184–191. <a href="https://doi.org//10.1016/j.joen.2019.11.006">https://doi.org//10.1016/j.joen.2019.11.006</a>.</p>
+</div>
+<div id="ref-ZTgDEakx">
+<p>[17] B. Briseño-Marroquín, F. Paqué, K. Maier, B. Willershausen, T.G. Wolf, Root Canal Morphology and Configuration of 179 Maxillary First Molars by Means of Micro–computed Tomography: An Ex Vivo Study, Journal of Endodontics. 41 (2015) 2008–2013. <a href="https://doi.org/10.1016/j.joen.2015.09.007">https://doi.org/10.1016/j.joen.2015.09.007</a>.</p>
+</div>
+<div id="ref-11csWtgxP">
+<p>[18] J. Feller, ed., Perspectives on free and open source software, MIT Press, Cambridge, Mass, 2005.</p>
+</div>
 <div id="ref-115PPSuQp">
-<p>[5] D. Haberthür, TomoGraphics/Hol3Drs: A release, Zenodo, 2019. <a href="https://doi.org/10.5281/zenodo.2587555">https://doi.org/10.5281/zenodo.2587555</a>.</p>
+<p>[19] D. Haberthür, TomoGraphics/Hol3Drs: A release, Zenodo, 2019. <a href="https://doi.org/10.5281/zenodo.2587555">https://doi.org/10.5281/zenodo.2587555</a>.</p>
 </div>
 <div id="ref-tZRGGuMm">
-<p>[6] D. Haberthür, habi/zmk-tooth-cohort: Used for manuscript about method, Zenodo, 2020. <a href="https://doi.org/10.5281/zenodo.3999402">https://doi.org/10.5281/zenodo.3999402</a>.</p>
+<p>[20] D. Haberthür, habi/zmk-tooth-cohort: Used for manuscript about method, Zenodo, 2020. <a href="https://doi.org/10.5281/zenodo.3999402">https://doi.org/10.5281/zenodo.3999402</a>.</p>
 </div>
 <div id="ref-U5AcoDOX">
-<p>[7] W. McKinney, Data Structures for Statistical Computing in Python, SciPy. (2010). <a href="https://doi.org/10.25080/majora-92bf1922-00a">https://doi.org/10.25080/majora-92bf1922-00a</a>.</p>
+<p>[21] W. McKinney, Data Structures for Statistical Computing in Python, SciPy. (2010). <a href="https://doi.org/10.25080/majora-92bf1922-00a">https://doi.org/10.25080/majora-92bf1922-00a</a>.</p>
 </div>
 </div>
 <!-- default theme -->
