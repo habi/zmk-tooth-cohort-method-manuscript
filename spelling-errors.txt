@@ -42,7 +42,7 @@ Otsu
 Paqué
 Periodontology
 PNG
-Pulpa
+pulpa
 radicular
 README
 reproducibility
