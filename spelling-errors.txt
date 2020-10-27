@@ -19,7 +19,6 @@ Fazzari
 foramen
 foramina
 Formlabs
-forvisual
 Gerhard
 Haberthür
 habi
@@ -65,7 +64,6 @@ TGW
 thresholding
 totalling
 trepanation
-Unversity
 vivo
 voxel
 XIMEA
