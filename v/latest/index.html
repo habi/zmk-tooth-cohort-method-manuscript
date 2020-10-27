@@ -55,9 +55,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/5c261d6b21ad54e0bf039eefdf8c00ff24f25957/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/5c261d6b21ad54e0bf039eefdf8c00ff24f25957/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/5c261d6b21ad54e0bf039eefdf8c00ff24f25957/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/30ba4b376255ad6f4e449d07bcd0cfa5f6e591c6/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/30ba4b376255ad6f4e449d07bcd0cfa5f6e591c6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/30ba4b376255ad6f4e449d07bcd0cfa5f6e591c6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/5c261d6b21ad54e0bf039eefdf8c00ff24f25957/">permalink</a>)
+(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/30ba4b376255ad6f4e449d07bcd0cfa5f6e591c6/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/5c261d6b21ad54e0bf039eefdf8c00ff24f25957">habi/zmk-tooth-cohort-method-manuscript@5c261d6</a>
+from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/30ba4b376255ad6f4e449d07bcd0cfa5f6e591c6">habi/zmk-tooth-cohort-method-manuscript@30ba4b3</a>
 on October 27, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -142,42 +142,138 @@ Previous works have already analyzed large batches of teeth, but only for a smal
 The hereby presented protocol provides an automated segmentation method for <em>ex vivo</em> research on extracted human teeth using a four-digit root canal configuration code as well as detection and measurement of the physiological foramen parameters.
 We achieve this by using free and open-source software <span class="citation" data-cites="11csWtgxP">[<a href="#ref-11csWtgxP" role="doc-biblioref">18</a>]</span>, considerably increasing the impact and availability of our method for collaborators and other users in the field.</p>
 <h2 class="page_break_before" id="materials-methods">Materials &amp; Methods</h2>
-<h3 id="teeth">Teeth</h3>
-<p>Describe how the teeth have been collected and stored.</p>
-<h3 id="x-ray-microtomography">X-ray microtomography</h3>
-<p>After preparation of the teeth, the 104 samples were imaged on a Bruker SkyScan 1272 high-resolution microtomography machine (Control software version 1.1.19, Bruker microCT, Kontich, Belgium).
-To facilitate the scanning of this large batch of samples, we used the automatic sample changer to enable us to scan batches of 16 teeth without manual intervention.
-In addition to the sample changer, the machine is equipped with a Hamamatsu L11871_20 X-ray source and a XIMEA xiRAY16 camera.</p>
-<p>We used a custom-made sample-holder to scan the teeth on the sample changer.
-The sample holder has been 3d printed and is freely available online (https://git.io/JJbAZ) as part of a library of sample holders <span class="citation" data-cites="115PPSuQp">[<a href="#ref-115PPSuQp" role="doc-biblioref">19</a>]</span>.</p>
-<p>The X-ray source was set to a tube voltage of 80.0 kV and a tube current of 125.0 µA, the x-ray spectrum was filtered by 1mm of Aluminium prior to incidence onto the sample.
-For each sample, we recorded a set of either 4 or 5 stacked scans overlapping the sample height, each stack was recorded with 482 projections of 1632 x 1092 pixels at every 0.4° over a 180° sample rotation.
-Every single projection was exposed for 950 ms, 3 projections were averaged to one to greatly reduce image noise.
+<h3 id="tooth-selection">Tooth selection</h3>
+<p>A total of 104 extracted human permanent mandibular canines were collected from university medical centers in southwest Germany and Switzerland.
+All teeth included were extracted for reasons unrelated to the study and are so-called excess material making an institutional review board approval unnecessary for the purpose of this investigation.
+The teeth were single-rooted and investigated according to their morphologic criteria.
+Inclusion criteria for teeth selection were complete coronal and root development and the absence of root fracture and resorption, coronal and radicular caries and endodontic treatment.
+Calculus as well as hard and soft tissue was removed using an ultrasonic scaler.
+Afterwards, the teeth were placed for one hour in a 3% hydrogen peroxide ultrasonic bath and then stored in 70% ethanol <span class="citation" data-cites="1HkTk4VKM OttTicsv amSKhLb1 ZTgDEakx 1Gn1pVZXt">[<a href="#ref-1HkTk4VKM" role="doc-biblioref">5</a>,<a href="#ref-amSKhLb1" role="doc-biblioref">14</a>,<a href="#ref-OttTicsv" role="doc-biblioref">16</a>,<a href="#ref-ZTgDEakx" role="doc-biblioref">17</a>,<a href="#ref-1Gn1pVZXt" role="doc-biblioref">19</a>]</span>.</p>
+<h3 id="micro-ct-based-morphological-analysis">Micro-CT-based morphological analysis</h3>
+<p>The 104 samples were imaged on a Bruker SkyScan 1272 high-resolution micro-CT machine (Control software version 1.1.19, Bruker microCT, Kontich, Belgium).
+To facilitate the scanning of this large batch of samples, we used the automatic sample changer to enable us to scan batches of 16 teeth without any intervention.
+In addition to the sample changer, the machine is equipped with a Hamamatsu L11871_20 X-ray source and a XIMEA xiRAY16 camera.
+We used a custom-made sample-holder to scan the teeth on the sample changer.
+The sample holder was 3D-printed on a Form 2 desktop stereolithography printer (Formlabs, Somerville, Massachusetts, USA) and is freely available online (https://git.io/JJbAZ) as part of a library of sample holders <span class="citation" data-cites="115PPSuQp">[<a href="#ref-115PPSuQp" role="doc-biblioref">20</a>]</span>.
+The X-ray source was set to a tube voltage of 80.0 kV and a tube current of 125.0 µA, the x-ray spectrum was filtered by 1mm of Aluminium prior to incidence onto the sample. For each sample, depending on the sample height, we recorded a set of either 4 or 5 stacked scans overlapping its height.
+Each stack was recorded with 482 TIFF projections of 1632 x 1092 pixels at every 0.4° over a 180° sample rotation.
+Every single projection was exposed for 950 ms and 3 projections were averaged to greatly reduce image noise.
 This resulted in a scan time of approximately 40 minutes per stack and between 2 hours and 40 minutes to 3 hours and 15 minutes per sample.
 In total, we thus scanned for approximately 13 days.
-The projection images were then subsequently reconstructed into a 3D stack of axial images spanning the whole length of each tooth with NRecon (Version 1.7.4.6, Bruker microCT, Kontich Belgium) using a ring artifact correction of 14.
-The whole process resulted in datasets with an isometric voxel size of 10.0 µm.</p>
-<p>We recorded on average 8.17 GB of raw data for each tooth, totalling to 849.59 GB for all the 104 teeth.</p>
-<h3 id="image-analysis">Image analysis</h3>
-<p>Already during scanning the first items of the batch, we wrote a Jupyter <span class="citation" data-cites="pQ6Wbz73">[<a href="#ref-pQ6Wbz73" role="doc-biblioref">20</a>]</span> notebook with Python code which permitted to check the already performed scans as soon as they were reconstructed. Reruns of the notebook added newly scanned and reconstructed teeth to the analysis, facilitating preliminary checks and analysis of already scanned teeth.
-The notebook we used for the analysis presented in this manuscript is freely available online <span class="citation" data-cites="tZRGGuMm">[<a href="#ref-tZRGGuMm" role="doc-biblioref">21</a>]</span>.
+On average, we recorded 7.88 GB of raw data for each tooth, totalling 819 GB for all 104 teeth.
+The obtained projection images were subsequently reconstructed into a 3D stack of axial PNG images spanning the whole length of each tooth with NRecon (Version 1.7.4.6, Bruker microCT, Kontich Belgium) using a ring artifact correction of 14.
+The whole process resulted in datasets with an isometric voxel size of 10.0 µm.
+The teeth were all slightly different in height and on average we had about 2700 reconstructions per teeth and a total of approximately 280000 files for all teeth.
+The reconstructed PNG slices per tooth are on average 3.13 GB in size, totalling approximately 326 GB for all 104 teeth.</p>
+<h3 id="image-processing">Image processing</h3>
+<p>We wrote a Jupyter <span class="citation" data-cites="pQ6Wbz73">[<a href="#ref-pQ6Wbz73" role="doc-biblioref">21</a>]</span> notebook with Python code which allowed for scans to be checked as soon as they were reconstructed during scanning of the first items in the batch.
+Re-runs of the notebook added newly scanned and reconstructed teeth to the analysis, facilitating preliminary checks and analysis of already scanned teeth.
+The notebook used for the analysis presented in this manuscript is freely available online <span class="citation" data-cites="tZRGGuMm">[<a href="#ref-tZRGGuMm" role="doc-biblioref">22</a>]</span>.
 The important steps of the analysis steps are described in detail below.</p>
 <h4 id="preparation">Preparation</h4>
-<p>In a first step we extract all wanted parameters from the log file of each scan to store into a Pandas <span class="citation" data-cites="U5AcoDOX">[<a href="#ref-U5AcoDOX" role="doc-biblioref">22</a>]</span> dataframe for comparing and double-checking all the necessary scan parameters of each tooth scan with all the others.
-Afterwards, we loaded the preview image of each scan and then generated an overview image of all the scans (see Figure <a href="#fig:overviews">1</a>).</p>
+<p>In a first step we extracted all necessary parameters from the log file of each scan to store into a <em>Pandas</em> <span class="citation" data-cites="U5AcoDOX">[<a href="#ref-U5AcoDOX" role="doc-biblioref">23</a>]</span> dataframe for comparison and verification of all the necessary scan parameters of each scanned tooth with all the others.
+Afterwards, the preview image of each scan was loaded and an overview image of all the scans was generated (see Figure <a href="#fig:overviews">1</a>, in which we show a randomly selected subset of the whole tooth cohort).</p>
 <div id="fig:overviews" class="fignos">
 <figure>
-<img src="images/ScanOverviews.png" alt="" /><figcaption><span>Figure 1:</span> Overview images for each of all the teeth we scanned.
+<img src="images/ScanOverviews.png" alt="" /><figcaption><span>Figure 1:</span> Overview images for a random selection of 24 of the 104 teeth.
 It is immediately visible that several teeth slipped down in the holder.
-Since we were particularly interested in the bottom part of the teeth this poses no problem for further analysis.
-The irregular illumination stems from the rudimentary stitching process and is not visible in the reconstructed slices.</figcaption>
+Since we were particularly interested in the bottom part of the teeth (top in this view) this poses no problem for further analysis.
+The irregular illumination stems from the rudimentary stitching process of the overview images and is not visible in the reconstructed slices.</figcaption>
 </figure>
 </div>
-<p>And here’s some more text.</p>
-<h2 class="page_break_before" id="introduction-1">Introduction</h2>
-<p>Hereby we present a method to efficiently and reproducibly analyze large batches of teeth.</p>
+<p>We used <em>Dask</em> <span class="citation" data-cites="IeaK5xmh">[<a href="#ref-IeaK5xmh" role="doc-biblioref">24</a>]</span> to read the set of axial reconstruction PNG slices for each sample.
+The <em>Zarr</em> library <span class="citation" data-cites="10Fk3ASPz">[<a href="#ref-10Fk3ASPz" role="doc-biblioref">25</a>]</span> was used to efficiently store a chunked, compressed, two-dimensional array representation of the reconstructions on disk for further analysis, with a total size of 330 GB on disk.</p>
+<h4 id="sec:cropping">Dataset cropping</h4>
+<p>To reduce the size of the data on disk, we cropped the datasets to their minimal amount, i.e. to the smallest cuboid encompassing the full tooth.
+This was done by segmenting the dataset into tooth and background using a common, fixed gray-value threshold for all datasets.
+From this refined dataset, we removed small noise by removing small speckles with the <a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.remove_small_objects"><code>remove\_small\_object</code></a> function of <em>scikit-image</em> <span class="citation" data-cites="stvWEJeu">[<a href="#ref-stvWEJeu" role="doc-biblioref">26</a>]</span> and subsequently isolated the biggest object with the <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.find_objects.html"><code>find\_objects</code></a>’
+function of <em>SciPy</em> <span class="citation" data-cites="8Miti2Gz">[<a href="#ref-8Miti2Gz" role="doc-biblioref">27</a>]</span>.
+The border of this largest object represents the smallest possible region in which the tooth is contained.
+By removing the empty parts of each three-dimensional dataset containing no information about the teeth, we reduced the size of all datasets nearly three-fold, to approximately 1.11 GB per sample, or a total of 115 GB for all 104 teeth thus facilitating further handling of the data.</p>
+<h4 id="overview-images-for-visual-examination">Overview images for visual examination</h4>
+<p>For quick visual assessment of each of the tooth scans, we extracted overview images for each tooth. After cropping the datasets, we extracted the middle slices and generated the maximum intensity projection (MIP) for each of the anatomical planes <span class="citation" data-cites="uYuz0opI">[<a href="#ref-uYuz0opI" role="doc-biblioref">28</a>]</span>.
+Since the teeth were scanned rotationally invariant, the two anatomical planes along the long axis of the tooth (coronal and sagittal) are not related to the real tooth anatomy and simply correspond to the respective direction in the tomographic dataset.</p>
+<h4 id="detection-of-enamel-dentin-border">Detection of enamel-dentin border</h4>
+<p>To facilitate the global characterization of the tooth, we extracted slices at four defined locations along the tooth.
+These slices, located at the EDB, the bottom of the tooth and equidistantly between, were then used to describe the root canal configuration with a 4-digit system and to assess the number of main foramina, both according to a previously proposed method <span class="citation" data-cites="ZTgDEakx">[<a href="#ref-ZTgDEakx" role="doc-biblioref">17</a>]</span>.
+The location of extracted slices is shown in Figure <a href="#fig:3dmevislab">2</a>.</p>
+<div id="fig:3dmevislab" class="fignos">
+<figure>
+<img src="images/Tooth045.MeVisLab.png" alt="" /><figcaption><span>Figure 2:</span> Three-dimensional visualization of tooth sample 045.
+This tooth is interesting as it features a 1-2-2/2 root canal configuration as defined by Briseño et al. <span class="citation" data-cites="ZTgDEakx">[<a href="#ref-ZTgDEakx" role="doc-biblioref">17</a>]</span>.
+The extracted pulpa in shown in red, the tooth itself is shown semitransparently.
+The four slices which were automatically extracted based on the enamel-dentin border are also visualized semitransparently in their correct 3D position.
+The whole tooth has a length of 2.39 cm.
+A video of the 3D visualization is found in the supplementary materials of this manuscript.</figcaption>
+</figure>
+</div>
+<p>This was done by calculating the brightness value along the longest axis of the tooth followed by smoothing of the curve using a <a href="https://www.statsmodels.org/devel/generated/statsmodels.nonparametric.smoothers_lowess.lowess.html">locally weighted scatterplot smoothing</a> implemented in the <em>statsmodels</em> library <span class="citation" data-cites="qAA6Ytay">[<a href="#ref-qAA6Ytay" role="doc-biblioref">29</a>]</span>.
+By finding the maximal derivation of this curve with <em>NumPy</em> <span class="citation" data-cites="10.1109/mcse.2011.37">[<span class="citeproc-not-found" data-reference-id="10.1109/mcse.2011.37"><strong>???</strong></span>]</span>, we were easily able to detect the border between enamel and dentin (EDB).
+From the part of the tooth below the detected border, we then extracted four equidistant slices.
+These slices and an overview of the tooth were written to a separate file for each sample, facilitating characterization of each tooth without manually looking for the correct axial reconstruction (see Figure <a href="#fig:extractedslices">3</a>).</p>
+<div id="fig:extractedslices" class="fignos">
+<figure>
+<img src="images/ExtractedSlices.png" alt="" /><figcaption><span>Figure 3:</span> Slice extraction for characterization of a tooth.
+This tooth features a 1-1-1/1 root canal configuration as defined by Briseño et al. <span class="citation" data-cites="ZTgDEakx">[<a href="#ref-ZTgDEakx" role="doc-biblioref">17</a>]</span>.
+The blue line in the two leftmost panels shows the gray value plot along the longest tooth axis, the orange line shows the smoothed plot.
+Based on the largest derivation we detect the enamel-dentin border at slice 1116 of this dataset.
+Based on the bottom around slice 2839 we extracted the equidistant slices in-between.</figcaption>
+</figure>
+</div>
+<h4 id="pulpa-extraction">Pulpa extraction</h4>
+<p>It was of paramount importance for the analysis to visualize the pulpa inside the tooth.
+We thus wrote a function to extract the pulpa based on its appearance in the axial slices of the datasets.
+By using an automated Otsu thresholding implemented in <em>scikit-image</em> [@#doi:10.7717/peerj.453] on each slice of the datasets, we separated the tooth from the background.
+By inversion of the image we select all that is not tooth.
+From this, we remove all the pixels that touch the image border i.e. the air surrounding the tooth, with the <a href="https://scikit-image.org/docs/dev/api/skimage.segmentation.html#skimage.segmentation.clear_border"><code>clear\_border</code></a> function.
+We further removed speckles in the remains and closed small holes in the remaining image data to extract the pulpa from inside the tooth (with the <a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.remove_small_objects"><code>remove\_small\_objects</code></a> and
+<a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.remove_small_holes"><code>remove\_small\_holes</code></a> functions, respectively).
+Datasets of the pulpa have again been written to disk for further analysis and display.
+Since these are binarized datasets, we were able to store them on disk very efficiently, with the total size of all 104 pulpa datasets being only 309 MB.
+Display of the datasets forvisual assessment was done with <em>itkwidgets</em> <span class="citation" data-cites="10.5281/zenodo.3974615">[<span class="citeproc-not-found" data-reference-id="10.5281/zenodo.3974615"><strong>???</strong></span>]</span>, permitting a basic 3D visualization of each tooth for quality control (an example is shown in Figure <a href="#fig:3ditkwidgets">4</a>).</p>
+<div id="fig:3ditkwidgets" class="fignos">
+<figure>
+<img src="images/Tooth045.itkwidgets.png" alt="" /><figcaption><span>Figure 4:</span> Basic 3D visualization directly from our preparation and analysis pipeline.
+This tooth is interesting as it features a 1-2-2/2 root canal configuration as defined by Briseño et al. <span class="citation" data-cites="ZTgDEakx">[<a href="#ref-ZTgDEakx" role="doc-biblioref">17</a>]</span>.
+The whole tooth has a length of 2.39 cm.</figcaption>
+</figure>
+</div>
+<h1 id="analysis-of-the-physiological-foramen-geometry">### Analysis of the physiological foramen geometry</h1>
+<p>The apical foramen of the teeth was evaluated as previously described <span class="citation" data-cites="1Gn1pVZXt">[<a href="#ref-1Gn1pVZXt" role="doc-biblioref">19</a>]</span> by assessing the bottom part of each tooth using <em>Fiji</em> <span class="citation" data-cites="doi.org/10.1038/nmeth.2019">[<span class="citeproc-not-found" data-reference-id="doi.org/10.1038/nmeth.2019"><strong>???</strong></span>]</span> to scroll through the stack of images and measure the diameter of the physiological and anatomical foramen as well as the distance between the physiological and anatomical foramina.
+The physiological (main) foramen was defined as one with a diameter of 0.20 mm or more.
+Foramina with diameters smaller than 0.20 mm were defined as accessory ones <span class="citation" data-cites="10.1038/ijos.2017.29">[<span class="citeproc-not-found" data-reference-id="10.1038/ijos.2017.29"><strong>???</strong></span>]</span>.
+Since we have extracted the pulpa for each tooth, we can easily calculate its diameter at each point, that is, exactly calculate the exact Euclidean distance transform (EDT) where each 3D voxel of the pulpa is labelled with its distance relative to the background (wall of the canal).
+We used the <a href="https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.ndimage.morphology.distance_transform_edt.html"><code>morphology.distance\_transform\_edt</code></a> function of the <em>SciPy</em> <span class="citation" data-cites="10.1038/s41592-019-0686-2">[<span class="citeproc-not-found" data-reference-id="10.1038/s41592-019-0686-2"><strong>???</strong></span>]</span> library for this.
+To aid the assessment of the geometry of the physiological foramen, we extracted the bottom 3.5 mm part of each tooth, merged the reconstructed slices of the data with the calculated EDT from the pulpa and wrote this data to disk reformatted into sagittal
+slices.
+In such a way, the radius of the largest sphere fitted into the pulpa at each point can easily be read off the image upon visual examination.
+The use of the <em>Dask</em> library facilitated efficient reformatting of the datasets and writing them to disk.</p>
+<h2 class="page_break_before" id="results-and-discussion">Results and Discussion</h2>
+<p>High resolution datasets of large batches of teeth were acquired in an efficient manner with minimized operator effort due to the batch-scanning abilities of the desktop micro-CT scanner.
+The acquired datasets were imaged at a voxel size (10 μm) permitting the analysis of the finest features of interest in the teeth.</p>
+<p>The batch-characteristics of the proposed dataset preparation and analysis method makes it easy and efficient to begin processing tooth datasets as scanning of a large batch of teeth is already underway.
+Our script facilitates short turnaround time for feedback on single scans in the batch, since samples can be processed by the script as soon as they are reconstructed and while other teeth are still being scanned or waiting to be scanned.
+Cropping the datasets with a simple algorithm - as described in subsection ‘Dataset cropping’ <span class="citation" data-cites="sec:cropping">[<span class="citeproc-not-found" data-reference-id="sec:cropping"><strong>???</strong></span>]</span> - greatly reduces the size of the datasets on disk.</p>
+<p>The proposed method is completely devoid of any manual input, all the datasets present on disk are prepared and analyzed automatically.
+This allows for a highly reproducible and completely unbiased analysis.
+Previous studies <span class="citation" data-cites="19SVNdOdA jsWNcnau">[<a href="#ref-19SVNdOdA" role="doc-biblioref">12</a>,<a href="#ref-jsWNcnau" role="doc-biblioref">30</a>]</span> have analyzed teeth with a precisely defined manual protocol which necessitated several, accurately performed manual steps, increasing the likelihood of operator error being introduced.
+This is avoided in the method presented here.</p>
+<p>Several teeth contained metal fillings (amalgam) in the crown area, which are difficult to penetrate with the X-ray source available to us.
+A simple thresholding lead to artefacts that extended to the border of the original dataset, thus for these datasets, there were no gains in disk space.
+Since the cropping part only influences the final size of the dataset on disk and not the extraction of the pulpa from the tooth, it is only of minor concern.
+Additionally, the implants or metal fillings in several teeth made it impossible to automatically detect the enamel-dentin border.
+If an implant or filling is present in the tooth, the largest derivation in the gray value profile along the tooth is situated at the bottom end of the implant.
+The function to extract the EDB was implemented in a way that a manual extraction of the border and the corresponding slices along the tooth axis was possible.</p>
+<p>The reformatting of only the bottom part of the tooth greatly facilitated the analysis of the geometry of the physical foramen of each tooth.
+While all reconstructions of a single tooth are more than 1 GB in size, these partial datasets are only around 22 MB per tooth.
+In total, the bottom 3.5 mm of all 104 teeth occupied only 2.3 GB of disk space, making further assessment of the foramen easily and efficiently possible on a standard office laptop.</p>
+<p>The non-destructively acquired three-dimensional datasets of the tooth can also be used for additional analysis of tooth morphology, akin to the process outlined by Di Angelo et al. <span class="citation" data-cites="1Egw08k0d">[<a href="#ref-1Egw08k0d" role="doc-biblioref">31</a>]</span>, Peters et al. <span class="citation" data-cites="10.1016/j.joen.2015.06.007">[<span class="citeproc-not-found" data-reference-id="10.1016/j.joen.2015.06.007"><strong>???</strong></span>]</span> or Paqué et al. <span class="citation" data-cites="10.1016/j.joen.2009.04.020">[<span class="citeproc-not-found" data-reference-id="10.1016/j.joen.2009.04.020"><strong>???</strong></span>]</span>.
+Further work will focus on automatically extracting a description of the physiological foramen which will allow for dentists to gain important information required for a successful root canal treatment.</p>
+<p>The hereby presented workflow is based completely on free and open-source software and – can therefore be verified independently by any interested reader.
+The Jupyter notebook described here is also freely available online <span class="citation" data-cites="tZRGGuMm">[<a href="#ref-tZRGGuMm" role="doc-biblioref">22</a>]</span>.
+A copy with two samples from the cohort can be run in your browser without installing any software via <em>Binder</em> <span class="citation" data-cites="Q20Bxdsr">[<a href="#ref-Q20Bxdsr" role="doc-biblioref">32</a>]</span> by <a href="https://mybinder.org/v2/gh/habi/zmk-tooth-cohort/master?filepath=ToothAnalysis.ipynb">clicking a single button</a> in the <a href="https://github.com/habi/zmk-tooth-cohort/blob/master/README.md">README file</a> of the <a href="https://github.com/habi/zmk-tooth-cohort/">project repository</a>.</p>
 <h2 class="page_break_before" id="conclusions">Conclusions</h2>
-<p>The presented method offers an efficient approach to scan, check and preview micro-computer tomographic datasets of a large amount of teeth.
+<p>The presented method offers an efficient approach to scan, check and preview micro-computer tomographic datasets of many teeth.
 We describe a helpful, free and open-source software tool to prepare datasets for precise description and characterization of the internal morphology of human permanent teeth using automated segmentation of features of interest.
 Due to the high reproducibility and standardization of the presented method, datasets of large cohorts and populations can be investigated easily and rapidly.</p>
 <h2 id="acknowledgements">Acknowledgements</h2>
@@ -249,17 +345,47 @@ All authors read and approved the final manuscript.</p>
 <div id="ref-11csWtgxP">
 <p>[18] J. Feller, ed., Perspectives on free and open source software, MIT Press, Cambridge, Mass, 2005.</p>
 </div>
+<div id="ref-1Gn1pVZXt">
+<p>[19] T.G. Wolf, F. Paqué, M. Sven Patyna, B. Willershausen, B. Briseño-Marroquín, Three-dimensional analysis of the physiological foramen geometry of maxillary and mandibular molars by means of micro-CT, International Journal of Oral Science. 9 (2017) 151–157. <a href="https://doi.org/10.1038/ijos.2017.29">https://doi.org/10.1038/ijos.2017.29</a>.</p>
+</div>
 <div id="ref-115PPSuQp">
-<p>[19] D. Haberthür, TomoGraphics/Hol3Drs: A release, Zenodo, 2019. <a href="https://doi.org/10.5281/zenodo.2587555">https://doi.org/10.5281/zenodo.2587555</a>.</p>
+<p>[20] D. Haberthür, TomoGraphics/Hol3Drs: A release, Zenodo, 2019. <a href="https://doi.org/10.5281/zenodo.2587555">https://doi.org/10.5281/zenodo.2587555</a>.</p>
 </div>
 <div id="ref-pQ6Wbz73">
-<p>[20] T. Kluyver, B. Ragan-Kelley, F. Pérez, B. Granger, M. Bussonnier, J. Frederic, K. Kelley, J. Hamrick, J. Grout, S. Corlay, P. Ivanov, D. Avila, S. Abdalla, C. Willing, Jupyter development team, Jupyter Notebooks – a publishing format for reproducible computational workflows, in: F. Loizides, B. Scmidt (Eds.), Positioning and Power in Academic Publishing: Players, Agents and Agendas, IOS Press, 2016: pp. 87–90. <a href="https://doi.org/Kluyver,%20Thomas,%20Ragan-Kelley,%20Benjamin,%20Pérez,%20Fernando,%20Granger,%20Brian,%20Bussonnier,%20Matthias,%20Frederic,%20Jonathan,%20Kelley,%20Kyle,%20Hamrick,%20Jessica,%20Grout,%20Jason,%20Corlay,%20Sylvain,%20Ivanov,%20Paul,%20Avila,%20Damián,%20Abdalla,%20Safia,%20Willing,%20Carol%20and%20Jupyter%20development%20team,%20%20%20%20%20%20%20(2016)%20%20%20%20%20Jupyter%20Notebooks%20–%20a%20publishing%20format%20for%20reproducible%20computational%20workflows.%20%20%20%20%20%20Loizides,%20Fernando%20and%20Scmidt,%20Birgit%20(eds.)%20%20%20%20%20%20In%20Positioning%20and%20Power%20in%20Academic%20Publishing:%20Players,%20Agents%20and%20Agendas.%20%20%20IOS%20Press.%20%20pp.%2087-90%20%20.%20%20%20%20%20%20%20(doi:10.3233/978-1-61499-649-1-87%20%3Chttp://dx.doi.org/10.3233/978-1-61499-649-1-87%3E).">https://doi.org/Kluyver, Thomas, Ragan-Kelley, Benjamin, Pérez, Fernando, Granger, Brian, Bussonnier, Matthias, Frederic, Jonathan, Kelley, Kyle, Hamrick, Jessica, Grout, Jason, Corlay, Sylvain, Ivanov, Paul, Avila, Damián, Abdalla, Safia, Willing, Carol and Jupyter development team,       (2016)     Jupyter Notebooks – a publishing format for reproducible computational workflows.      Loizides, Fernando and Scmidt, Birgit (eds.)      In Positioning and Power in Academic Publishing: Players, Agents and Agendas.   IOS Press.  pp. 87-90  .       (doi:10.3233/978-1-61499-649-1-87 &lt;http://dx.doi.org/10.3233/978-1-61499-649-1-87&gt;).</a></p>
+<p>[21] T. Kluyver, B. Ragan-Kelley, F. Pérez, B. Granger, M. Bussonnier, J. Frederic, K. Kelley, J. Hamrick, J. Grout, S. Corlay, P. Ivanov, D. Avila, S. Abdalla, C. Willing, Jupyter development team, Jupyter Notebooks – a publishing format for reproducible computational workflows, in: F. Loizides, B. Scmidt (Eds.), Positioning and Power in Academic Publishing: Players, Agents and Agendas, IOS Press, 2016: pp. 87–90. <a href="https://doi.org/Kluyver,%20Thomas,%20Ragan-Kelley,%20Benjamin,%20Pérez,%20Fernando,%20Granger,%20Brian,%20Bussonnier,%20Matthias,%20Frederic,%20Jonathan,%20Kelley,%20Kyle,%20Hamrick,%20Jessica,%20Grout,%20Jason,%20Corlay,%20Sylvain,%20Ivanov,%20Paul,%20Avila,%20Damián,%20Abdalla,%20Safia,%20Willing,%20Carol%20and%20Jupyter%20development%20team,%20%20%20%20%20%20%20(2016)%20%20%20%20%20Jupyter%20Notebooks%20–%20a%20publishing%20format%20for%20reproducible%20computational%20workflows.%20%20%20%20%20%20Loizides,%20Fernando%20and%20Scmidt,%20Birgit%20(eds.)%20%20%20%20%20%20In%20Positioning%20and%20Power%20in%20Academic%20Publishing:%20Players,%20Agents%20and%20Agendas.%20%20%20IOS%20Press.%20%20pp.%2087-90%20%20.%20%20%20%20%20%20%20(doi:10.3233/978-1-61499-649-1-87%20%3Chttp://dx.doi.org/10.3233/978-1-61499-649-1-87%3E).">https://doi.org/Kluyver, Thomas, Ragan-Kelley, Benjamin, Pérez, Fernando, Granger, Brian, Bussonnier, Matthias, Frederic, Jonathan, Kelley, Kyle, Hamrick, Jessica, Grout, Jason, Corlay, Sylvain, Ivanov, Paul, Avila, Damián, Abdalla, Safia, Willing, Carol and Jupyter development team,       (2016)     Jupyter Notebooks – a publishing format for reproducible computational workflows.      Loizides, Fernando and Scmidt, Birgit (eds.)      In Positioning and Power in Academic Publishing: Players, Agents and Agendas.   IOS Press.  pp. 87-90  .       (doi:10.3233/978-1-61499-649-1-87 &lt;http://dx.doi.org/10.3233/978-1-61499-649-1-87&gt;).</a></p>
 </div>
 <div id="ref-tZRGGuMm">
-<p>[21] D. Haberthür, habi/zmk-tooth-cohort: Used for manuscript about method, Zenodo, 2020. <a href="https://doi.org/10.5281/zenodo.3999402">https://doi.org/10.5281/zenodo.3999402</a>.</p>
+<p>[22] D. Haberthür, habi/zmk-tooth-cohort: Used for manuscript about method, Zenodo, 2020. <a href="https://doi.org/10.5281/zenodo.3999402">https://doi.org/10.5281/zenodo.3999402</a>.</p>
 </div>
 <div id="ref-U5AcoDOX">
-<p>[22] W. McKinney, Data Structures for Statistical Computing in Python, SciPy. (2010). <a href="https://doi.org/10.25080/majora-92bf1922-00a">https://doi.org/10.25080/majora-92bf1922-00a</a>.</p>
+<p>[23] W. McKinney, Data Structures for Statistical Computing in Python, SciPy. (2010). <a href="https://doi.org/10.25080/majora-92bf1922-00a">https://doi.org/10.25080/majora-92bf1922-00a</a>.</p>
+</div>
+<div id="ref-IeaK5xmh">
+<p>[24] Dask: Scalable analytics in Python, (n.d.). <a href="https://dask.org/">https://dask.org/</a> (accessed October 27, 2020).</p>
+</div>
+<div id="ref-10Fk3ASPz">
+<p>[25] A. Miles, J. Kirkham, M. Durant, J. Bourbeau, T. Onalan, J. Hamman, Zain Patel, Shikharsg, M. Rocklin, R. Dussin, V. Schut, E.S.D. Andrade, R. Abernathey, C. Noyes, Sbalmer, Pyup.Io Bot, T. Tran, S. Saalfeld, J. Swaney, J. Moore, J. Jevnik, J. Kelleher, J. Funke, G. Sakkis, C. Barnes, A. Banihirwe, zarr-developers/zarr-python: v2.3.2, Zenodo, 2019. <a href="https://doi.org/10.5281/zenodo.3773451">https://doi.org/10.5281/zenodo.3773451</a>.</p>
+</div>
+<div id="ref-stvWEJeu">
+<p>[26] S. van der Walt, J.L. Schönberger, J. Nunez-Iglesias, F. Boulogne, J.D. Warner, N. Yager, E. Gouillart, T. Yu, scikit-image: image processing in Python, PeerJ. 2 (2014) e453. <a href="https://doi.org/10.7717/peerj.453">https://doi.org/10.7717/peerj.453</a>.</p>
+</div>
+<div id="ref-8Miti2Gz">
+<p>[27] P. Virtanen, R. Gommers, T.E. Oliphant, M. Haberland, T. Reddy, D. Cournapeau, E. Burovski, P. Peterson, W. Weckesser, J. Bright, S.J. van der Walt, M. Brett, J. Wilson, K.J. Millman, N. Mayorov, A.R.J. Nelson, E. Jones, R. Kern, E. Larson, C.J. Carey, İ. Polat, Y. Feng, E.W. Moore, J. VanderPlas, D. Laxalde, J. Perktold, R. Cimrman, I. Henriksen, E.A. Quintero, C.R. Harris, A.M. Archibald, A.H. Ribeiro, F. Pedregosa, P. van Mulbregt, SciPy 1.0 Contributors, SciPy 1.0: fundamental algorithms for scientific computing in Python, Nature Methods. (2020). <a href="https://doi.org/10.1038/s41592-019-0686-2">https://doi.org/10.1038/s41592-019-0686-2</a>.</p>
+</div>
+<div id="ref-uYuz0opI">
+<p>[28] Main Page, Wikipedia, the Free Encyclopedia. (2020). <a href="https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=969106986">https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=969106986</a> (accessed October 27, 2020).</p>
+</div>
+<div id="ref-qAA6Ytay">
+<p>[29] (n.d.). <a href="https://www.statsmodels.org/">https://www.statsmodels.org/</a> (accessed October 27, 2020).</p>
+</div>
+<div id="ref-jsWNcnau">
+<p>[30] T.G. Wolf, C. Kozaczek, M. Siegrist, M. Betthäuser, F. Paqué, B. Briseño-Marroquín, An Ex Vivo Study of Root Canal System Configuration and Morphology of 115 Maxillary First Premolars, Journal of Endodontics. 46 (2020) 794–800. <a href="https://doi.org/10.1016/j.joen.2020.03.001">https://doi.org/10.1016/j.joen.2020.03.001</a>.</p>
+</div>
+<div id="ref-1Egw08k0d">
+<p>[31] L. Di Angelo, P. Di Stefano, S. Bernardi, M.A. Continenza, A new computational method for automatic dental measurement: The case of maxillary central incisor, Computers in Biology and Medicine. 70 (2016) 202–209. <a href="https://doi.org/10.1016/j.compbiomed.2016.01.018">https://doi.org/10.1016/j.compbiomed.2016.01.018</a>.</p>
+</div>
+<div id="ref-Q20Bxdsr">
+<p>[32] P. Jupyter, M. Bussonnier, J. Forde, J. Freeman, B. Granger, T. Head, C. Holdgraf, K. Kelley, G. Nalvarte, A. Osheroff, M. Pacer, Y. Panda, F. Perez, B. Ragan-Kelley, C. Willing, Binder 2.0 - Reproducible, interactive, sharable environments for science at scale, SciPy. (2018). <a href="https://doi.org/10.25080/majora-4af1f417-011">https://doi.org/10.25080/majora-4af1f417-011</a>.</p>
 </div>
 </div>
 <!-- default theme -->
