@@ -55,9 +55,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/99dfce3032d524d3044e8e2e0366ea5210445aad/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/99dfce3032d524d3044e8e2e0366ea5210445aad/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/99dfce3032d524d3044e8e2e0366ea5210445aad/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/2bce60be44a02bafc30e80583fd9f254d9184432/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/2bce60be44a02bafc30e80583fd9f254d9184432/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/2bce60be44a02bafc30e80583fd9f254d9184432/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,12 +70,12 @@
 <h1 class="title">Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT</h1>
 </header>
 <p>A preprint of this manuscript is available on <em>bioRxiv</em> at <a href="https://doi.org/10.1101/2020.10.27.356998" class="uri">https://doi.org/10.1101/2020.10.27.356998</a> and has been submitted to <a href="https://bmcoralhealth.biomedcentral.com/"><em>BMC Oral Health</em></a>.
-This version of the manuscript <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...99dfce3032d524d3044e8e2e0366ea5210445aad">contains changes</a> subsequent to the preprint deposition.</p>
+This version of the manuscript <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...2bce60be44a02bafc30e80583fd9f254d9184432">contains changes</a> subsequent to the preprint deposition.</p>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/99dfce3032d524d3044e8e2e0366ea5210445aad/">permalink</a>)
+(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/2bce60be44a02bafc30e80583fd9f254d9184432/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/99dfce3032d524d3044e8e2e0366ea5210445aad">habi/zmk-tooth-cohort-method-manuscript@99dfce3</a>
+from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/2bce60be44a02bafc30e80583fd9f254d9184432">habi/zmk-tooth-cohort-method-manuscript@2bce60b</a>
 on October 27, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -180,7 +180,7 @@ Afterwards, the preview image of each scan was loaded and an overview image of a
 <img src="images/ScanOverviews.png" alt="" /><figcaption><span>Figure 1:</span> Overview images for a random selection of 24 of the 104 teeth.
 It is immediately visible that several teeth slipped down in the holder.
 Since we were particularly interested in the bottom part of the teeth (top in this view) this poses no problem for further analysis.
-The irregular illumination stems from the rudimentary stitching process of the overview images and is not visible in the reconstructed slices.</figcaption>
+The irregular brightness along the vertical axis stems from the rudimentary stitching process of the overview images and is not visible in the reconstructed slices.</figcaption>
 </figure>
 </div>
 <p>We used <em>Dask</em> <span class="citation" data-cites="IeaK5xmh">[<a href="#ref-IeaK5xmh" role="doc-biblioref">24</a>]</span> to read the set of axial reconstruction PNG slices for each sample.
@@ -188,8 +188,7 @@ The <em>Zarr</em> library <span class="citation" data-cites="10Fk3ASPz">[<a href
 <h4 id="dataset-cropping">Dataset cropping</h4>
 <p>To reduce the size of the data on disk, we cropped the datasets to their minimal amount, i.e. to the smallest cuboid encompassing the full tooth.
 This was done by segmenting the dataset into tooth and background using a common, fixed gray-value threshold for all datasets.
-From this refined dataset, we removed small noise by removing small speckles with the <a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.remove_small_objects"><code>remove_small_object</code></a> function of <em>scikit-image</em> <span class="citation" data-cites="stvWEJeu">[<a href="#ref-stvWEJeu" role="doc-biblioref">26</a>]</span> and subsequently isolated the biggest object with the <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.find_objects.html"><code>find_objects</code></a>’
-function of <em>SciPy</em> <span class="citation" data-cites="8Miti2Gz">[<a href="#ref-8Miti2Gz" role="doc-biblioref">27</a>]</span>.
+From this refined dataset, we removed small noise by removing small speckles with the <a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.remove_small_objects"><code>remove_small_object</code></a> function of <em>scikit-image</em> <span class="citation" data-cites="stvWEJeu">[<a href="#ref-stvWEJeu" role="doc-biblioref">26</a>]</span> and subsequently isolated the biggest object with the <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.find_objects.html"><code>find_objects</code></a> function of <em>SciPy</em> <span class="citation" data-cites="8Miti2Gz">[<a href="#ref-8Miti2Gz" role="doc-biblioref">27</a>]</span>.
 The border of this largest object represents the smallest possible region in which the tooth is contained.
 By removing the empty parts of each three-dimensional dataset containing no information about the teeth, we reduced the size of all datasets nearly three-fold, to approximately 1.11 GB per sample, or a total of 115 GB for all 104 teeth thus facilitating further handling of the data.</p>
 <h4 id="overview-images-for-visual-examination">Overview images for visual examination</h4>

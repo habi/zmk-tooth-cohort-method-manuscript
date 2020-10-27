@@ -9,8 +9,8 @@ Briseño
 Bruker
 Dask
 dataframe
-Dataset
-datasets
+dataset
+Datasets
 ditkwidgets
 Djonov
 dmevislab
