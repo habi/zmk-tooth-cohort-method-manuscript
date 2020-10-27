@@ -72,6 +72,7 @@ content/04.materials.methods.md:71:Briseño
 content/04.materials.methods.md:72:pulpa
 content/04.materials.methods.md:72:semitransparently
 content/04.materials.methods.md:73:semitransparently
+content/04.materials.methods.md:75:habi
 content/04.materials.methods.md:75:png
 content/04.materials.methods.md:77:scatterplot
 content/04.materials.methods.md:77:statsmodels

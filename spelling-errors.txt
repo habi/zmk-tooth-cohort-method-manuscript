@@ -17,7 +17,7 @@ endodontic
 extractedslices
 Fazzari
 foramen
-foramina
+Foramina
 Formlabs
 Gerhard
 Haberthür
@@ -42,7 +42,7 @@ Otsu
 Paqué
 Periodontology
 PNG
-pulpa
+Pulpa
 radicular
 README
 reproducibility
