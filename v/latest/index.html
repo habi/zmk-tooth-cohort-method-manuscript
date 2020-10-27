@@ -55,9 +55,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/621e4018d65711ef1b0c9eb9a01902a3f3d4f772/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/621e4018d65711ef1b0c9eb9a01902a3f3d4f772/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/621e4018d65711ef1b0c9eb9a01902a3f3d4f772/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/f9b3333c625228f4f28211a34f381b9f87c430b0/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/f9b3333c625228f4f28211a34f381b9f87c430b0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/f9b3333c625228f4f28211a34f381b9f87c430b0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -71,9 +71,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/621e4018d65711ef1b0c9eb9a01902a3f3d4f772/">permalink</a>)
+(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/f9b3333c625228f4f28211a34f381b9f87c430b0/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/621e4018d65711ef1b0c9eb9a01902a3f3d4f772">habi/zmk-tooth-cohort-method-manuscript@621e401</a>
+from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/f9b3333c625228f4f28211a34f381b9f87c430b0">habi/zmk-tooth-cohort-method-manuscript@f9b3333</a>
 on October 27, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -223,7 +223,7 @@ Based on the bottom around slice 2839 we extracted the equidistant slices in-bet
 <h4 id="pulpa-extraction">Pulpa extraction</h4>
 <p>It was of paramount importance for the analysis to visualize the pulpa inside the tooth.
 We thus wrote a function to extract the pulpa based on its appearance in the axial slices of the datasets.
-By using an automated Otsu thresholding implemented in <em>scikit-image</em> [@#doi:10.7717/peerj.453] on each slice of the datasets, we separated the tooth from the background.
+By using an automated Otsu thresholding implemented in <em>scikit-image</em> <span class="citation" data-cites="stvWEJeu">[<a href="#ref-stvWEJeu" role="doc-biblioref">26</a>]</span> on each slice of the datasets, we separated the tooth from the background.
 By inversion of the image we select all that is not tooth.
 From this, we remove all the pixels that touch the image border i.e. the air surrounding the tooth, with the <a href="https://scikit-image.org/docs/dev/api/skimage.segmentation.html#skimage.segmentation.clear_border"><code>clear_border</code></a> function.
 We further removed speckles in the remains and closed small holes in the remaining image data to extract the pulpa from inside the tooth (with the <a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.remove_small_objects"><code>remove_small_objects</code></a> and
