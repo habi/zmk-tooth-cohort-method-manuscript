@@ -7,7 +7,7 @@ Briseño
 Bruker
 Dask
 dataframe
-dataset
+Dataset
 datasets
 ditkwidgets
 Djonov
@@ -36,13 +36,12 @@ MIP
 morphologic
 NRecon
 NumPy
-oldid
 Oleksiy
 Otsu
 Paqué
 Periodontology
 PNG
-pulpa
+Pulpa
 radicular
 README
 reproducibility
