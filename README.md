@@ -8,10 +8,12 @@
 
 ## Manuscript description
 
-This repository contains the manuscript about the analyis of the large cohort of teeth.
-We wrote the manuscript collaboratively on [manuscripts.io](https://www.manuscripts.io/) but I want to to keep it safe with an GitHub repository that runs [`manubot`](https://manubot.org) (see below for details).
+This repository contains the manuscript about the analysis of a large cohort of human teeth.
+We wrote the manuscript collaboratively on [Manuscripts.io](https://www.manuscripts.io/) but I want to to keep it safe with an GitHub repository that runs [`manubot`](https://manubot.org) (see below for details).
+We exported the text from Manuscripts.io as HTML, used `pandoc` to generate a markdown file and manually split this file into the relevant section found in the [content] folder in this repository.
+Then we manually added the correct references to the text and in the end submitted the `manubot`-generated PDF as a preprint to [bioRxiv](https://www.biorxiv.org/) and to [Computers in Biology and Medicine](https://www.journals.elsevier.com/computers-in-biology-and-medicine/).
 
-The code which accompagnies the manuscript can be found in this repository here: http://github.com/habi/zmk-tooth-cohort
+The code which accompanies the manuscript can be found in this repository here: http://github.com/habi/zmk-tooth-cohort
 
 ## Manubot
 
