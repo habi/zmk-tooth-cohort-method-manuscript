@@ -1,4 +1,5 @@
 content/00.front-matter.md:9:bioRxiv
+content/00.front-matter.md:9:BMC
 content/00.front-matter.md:9:preprint
 content/00.front-matter.md:10:habi
 content/00.front-matter.md:10:preprint

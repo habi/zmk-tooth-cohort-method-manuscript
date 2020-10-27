@@ -4,11 +4,12 @@ Anderegg
 artefacts
 binarized
 bioRxiv
+BMC
 Briseño
 Bruker
 Dask
 dataframe
-Dataset
+dataset
 datasets
 ditkwidgets
 Djonov
@@ -43,7 +44,7 @@ Paqué
 Periodontology
 PNG
 preprint
-pulpa
+Pulpa
 radicular
 README
 reproducibility
