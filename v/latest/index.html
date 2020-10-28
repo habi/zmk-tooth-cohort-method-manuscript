@@ -7,7 +7,7 @@
   <meta name="author" content="David Haberthür" />
   <meta name="author" content="Ruslan Hlushchuk" />
   <meta name="author" content="Thomas Gerhard Wolf" />
-  <meta name="dcterms.date" content="2020-10-27" />
+  <meta name="dcterms.date" content="2020-10-28" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT</title>
   <style>
@@ -30,8 +30,8 @@
   <meta name="citation_title" content="Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT" />
   <meta property="og:title" content="Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT" />
   <meta property="twitter:title" content="Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT" />
-  <meta name="dc.date" content="2020-10-27" />
-  <meta name="citation_publication_date" content="2020-10-27" />
+  <meta name="dc.date" content="2020-10-28" />
+  <meta name="citation_publication_date" content="2020-10-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/b6caebded853e4ce1410a8a67a7f6df4fb1ff7a5/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/b6caebded853e4ce1410a8a67a7f6df4fb1ff7a5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/b6caebded853e4ce1410a8a67a7f6df4fb1ff7a5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/d54b726a12089be7c4b4c192958c16d7f9da3c58/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/d54b726a12089be7c4b4c192958c16d7f9da3c58/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/d54b726a12089be7c4b4c192958c16d7f9da3c58/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,13 +70,13 @@
 <h1 class="title">Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT</h1>
 </header>
 <p>A preprint of this manuscript is available on <em>bioRxiv</em> at <a href="https://doi.org/10.1101/2020.10.27.356998" class="uri">https://doi.org/10.1101/2020.10.27.356998</a> and has been submitted to <a href="https://bmcoralhealth.biomedcentral.com/"><em>BMC Oral Health</em></a>.
-This version of the manuscript <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...b6caebded853e4ce1410a8a67a7f6df4fb1ff7a5">contains changes</a> subsequent to the preprint deposition.</p>
+This version of the manuscript <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...d54b726a12089be7c4b4c192958c16d7f9da3c58">contains changes</a> subsequent to the preprint deposition.</p>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/b6caebded853e4ce1410a8a67a7f6df4fb1ff7a5/">permalink</a>)
+(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/d54b726a12089be7c4b4c192958c16d7f9da3c58/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/b6caebded853e4ce1410a8a67a7f6df4fb1ff7a5">habi/zmk-tooth-cohort-method-manuscript@b6caebd</a>
-on October 27, 2020.
+from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/d54b726a12089be7c4b4c192958c16d7f9da3c58">habi/zmk-tooth-cohort-method-manuscript@d54b726</a>
+on October 28, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -188,7 +188,7 @@ The <em>Zarr</em> library <span class="citation" data-cites="10Fk3ASPz">[<a href
 <h4 id="dataset-cropping">Dataset cropping</h4>
 <p>To reduce the size of the data on disk, we cropped the datasets to their minimal amount, i.e. to the smallest cuboid encompassing the full tooth.
 This was done by segmenting the dataset into tooth and background using a common, fixed gray-value threshold for all datasets.
-From this refined dataset, we removed small noise by removing small speckles with the <a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html%23skimage.morphology.remove_small_objects"><code>remove_small_object</code></a> function of <em>scikit-image</em> <span class="citation" data-cites="stvWEJeu">[<a href="#ref-stvWEJeu" role="doc-biblioref">26</a>]</span> and subsequently isolated the biggest object with the <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.find_objects.html"><code>find_objects</code></a> function of <em>SciPy</em> <span class="citation" data-cites="8Miti2Gz">[<a href="#ref-8Miti2Gz" role="doc-biblioref">27</a>]</span>.
+From this refined dataset, we removed small noise by removing small speckles with the <a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.remove_small_objects"><code>remove_small_object</code></a> function of <em>scikit-image</em> <span class="citation" data-cites="stvWEJeu">[<a href="#ref-stvWEJeu" role="doc-biblioref">26</a>]</span> and subsequently isolated the biggest object with the <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.find_objects.html"><code>find_objects</code></a> function of <em>SciPy</em> <span class="citation" data-cites="8Miti2Gz">[<a href="#ref-8Miti2Gz" role="doc-biblioref">27</a>]</span>.
 The border of this largest object represents the smallest possible region in which the tooth is contained.
 By removing the empty parts of each three-dimensional dataset containing no information about the teeth, we reduced the size of all datasets nearly three-fold, to approximately 1.11 GB per sample, or a total of 115 GB for all 104 teeth thus facilitating further handling of the data.</p>
 <h4 id="overview-images-for-visual-examination">Overview images for visual examination</h4>
@@ -362,7 +362,7 @@ All authors read and approved the final manuscript.</p>
 <p>23. McKinney W. Data Structures for Statistical Computing in Python. SciPy. 2010. doi:<a href="https://doi.org/10.25080/majora-92bf1922-00a">10.25080/majora-92bf1922-00a</a>.</p>
 </div>
 <div id="ref-IeaK5xmh">
-<p>24. Dask: Scalable analytics in Python. <a href="https://dask.org/">https://dask.org/</a>. Accessed 27 Oct 2020.</p>
+<p>24. Dask: Scalable analytics in Python. <a href="https://dask.org/">https://dask.org/</a>. Accessed 28 Oct 2020.</p>
 </div>
 <div id="ref-10Fk3ASPz">
 <p>25. Miles A, Kirkham J, Durant M, Bourbeau J, Onalan T, Hamman J, et al. zarr-developers/zarr-python: v2.3.2. Zenodo; 2019. doi:<a href="https://doi.org/10.5281/zenodo.3773451">10.5281/zenodo.3773451</a>.</p>
@@ -377,7 +377,7 @@ All authors read and approved the final manuscript.</p>
 <p>28. Anatomical plane - Wikipedia. 2020. <a href="https://w.wiki/_K2r">https://w.wiki/_K2r</a>.</p>
 </div>
 <div id="ref-qAA6Ytay">
-<p>29. <a href="https://www.statsmodels.org/">https://www.statsmodels.org/</a>. Accessed 27 Oct 2020.</p>
+<p>29. <a href="https://www.statsmodels.org/">https://www.statsmodels.org/</a>. Accessed 28 Oct 2020.</p>
 </div>
 <div id="ref-OiM2HfsY">
 <p>30. van der Walt S, Colbert SC, Varoquaux G. The NumPy Array: A Structure for Efficient Numerical Computation. Computing in Science &amp; Engineering. 2011;13:22–30. doi:<a href="https://doi.org/10.1109/mcse.2011.37">10.1109/mcse.2011.37</a>.</p>
