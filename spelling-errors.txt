@@ -10,7 +10,7 @@ Bruker
 Dask
 dataframe
 dataset
-Datasets
+datasets
 ditkwidgets
 Djonov
 dmevislab
@@ -44,7 +44,7 @@ Paqué
 Periodontology
 PNG
 preprint
-pulpa
+Pulpa
 radicular
 README
 reproducibility
