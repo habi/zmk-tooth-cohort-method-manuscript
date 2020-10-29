@@ -3,7 +3,7 @@
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://habi.github.io/zmk-tooth-cohort-method-manuscript/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/habi/zmk-tooth-cohort-method-manuscript/workflows/Manubot/badge.svg)](https://github.com/habi/zmk-tooth-cohort-method-manuscript/actions)
-[![Travis Build Status](https://travis-ci.com/habi/zmk-tooth-cohort-method-manuscript.svg?branch=master)](https://travis-ci.com/habi/zmk-tooth-cohort-method-manuscript)
+<!-- [![Travis Build Status](https://travis-ci.com/habi/zmk-tooth-cohort-method-manuscript.svg?branch=master)](https://travis-ci.com/habi/zmk-tooth-cohort-method-manuscript) -->
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
 ## Manuscript description
@@ -11,9 +11,9 @@
 This repository contains the manuscript about the analysis of a large cohort of human teeth.
 We wrote the manuscript collaboratively on [Manuscripts.io](https://www.manuscripts.io/) but I want to to keep it safe with an GitHub repository that runs [`manubot`](https://manubot.org) (see below for details).
 We exported the text from Manuscripts.io as HTML, used `pandoc` to generate a markdown file and manually split this file into the relevant section found in the [content] folder in this repository.
-Then we manually added the correct references to the text and in the end submitted the `manubot`-generated PDF as a preprint to [bioRxiv](https://www.biorxiv.org/) and to [Computers in Biology and Medicine](https://www.journals.elsevier.com/computers-in-biology-and-medicine/).
+Then we manually added the correct references to the text and in the end deposited a `manubot`-generated PDF as preprint on [bioRxiv](https://www.biorxiv.org/) ([doi:10.1101/2020.10.27.356998](https://doi.org/10.1101/2020.10.27.356998)) and then submitted it to [BMC Oral Health](https://bmcoralhealth.biomedcentral.com).
 
-The code which accompanies the manuscript can be found in this repository here: http://github.com/habi/zmk-tooth-cohort
+The code which accompanies the manuscript can be found here: http://github.com/habi/zmk-tooth-cohort ([doi:10.5281/zenodo.3999401](https://doi.org/10.5281/zenodo.3999401)).
 
 ## Manubot
 
