@@ -100,5 +100,46 @@
         ]
       ]
     },
+  },
+    {
+    "author": [
+      {
+        "family": "Seabold",
+        "given": "Skipper"
+      },
+      {
+        "family": "Perktold",
+        "given": "Josef"
+      }
+    ],
+    "container-title": "9th Python in Science Conference",
+    "id": "statsmodels",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "title": "statsmodels: Econometric and statistical modeling with python",
+    "type": "paper-conference"
+  },
+    {
+    "URL": "https://dask.org",
+    "author": [
+      {
+        "literal": "Dask Development Team"
+      }
+    ],
+    "id": "dask",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "title": "Dask: Library for dynamic task scheduling",
+    "type": "book"
   }
 ]
