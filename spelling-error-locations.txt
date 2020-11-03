@@ -28,7 +28,6 @@ content/04.materials.methods.md:14:bruker
 content/04.materials.methods.md:14:Bruker
 content/04.materials.methods.md:14:Bruker
 content/04.materials.methods.md:14:Kontich
-content/04.materials.methods.md:14:microct
 content/04.materials.methods.md:14:microCT
 content/04.materials.methods.md:14:skyscan
 content/04.materials.methods.md:14:SkyScan
