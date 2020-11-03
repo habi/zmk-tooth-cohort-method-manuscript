@@ -9,8 +9,8 @@ Briseño
 Bruker
 Dask
 dataframe
-Dataset
-Datasets
+dataset
+datasets
 ditkwidgets
 Djonov
 dmevislab
@@ -19,7 +19,7 @@ endodontic
 extractedslices
 Fazzari
 foramen
-Foramina
+foramina
 Formlabs
 Gerhard
 Haberthür
