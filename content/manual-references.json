@@ -99,21 +99,21 @@
           23
         ]
       ]
-    },
+    }
   },
+  {
+  "id": "statsmodels",
+  "author": [
     {
-    "author": [
-      {
-        "family": "Seabold",
-        "given": "Skipper"
-      },
-      {
-        "family": "Perktold",
-        "given": "Josef"
-      }
+      "family": "Seabold",
+      "given": "Skipper"
+    },
+    {
+      "family": "Perktold",
+      "given": "Josef"
+    }
     ],
     "container-title": "9th Python in Science Conference",
-    "id": "statsmodels",
     "issued": {
       "date-parts": [
         [
@@ -125,13 +125,13 @@
     "type": "paper-conference"
   },
     {
+    "id": "dask",
     "URL": "https://dask.org",
     "author": [
       {
         "literal": "Dask Development Team"
       }
     ],
-    "id": "dask",
     "issued": {
       "date-parts": [
         [
