@@ -19,7 +19,7 @@ endodontic
 extractedslices
 Fazzari
 foramen
-foramina
+Foramina
 Formlabs
 Gerhard
 Haberthür
