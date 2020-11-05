@@ -1,10 +1,94 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  american,
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT},
+  pdfauthor={David HaberthürRuslan HlushchukThomas Gerhard Wolf},
+  pdflang={en-US},
+  pdfkeywords={markdown, publishing, manubot},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\ifxetex
+  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[variant=american]{english}
+\else
+  \usepackage[shorthands=off,main=american]{babel}
+\fi
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{cslreferences}%
+  {}%
+  {\par}
+
+\title{Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
 A preprint of this manuscript is available on \emph{bioRxiv} at \url{https://doi.org/10.1101/2020.10.27.356998} and has been submitted to \href{https://bmcoralhealth.biomedcentral.com/}{\emph{BMC Oral Health}}.
-This version of the manuscript \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...60665445fb0bac23fa9f57b9b11fdac1fef30191}{has been updated} since the preprint deposition.
+This version of the manuscript \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...6cc6138d341a45345e2ef808848b1e1a2015baac}{has been updated} since the preprint deposition.
 
 This manuscript
-(\href{https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/60665445fb0bac23fa9f57b9b11fdac1fef30191/}{permalink})
+(\href{https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/6cc6138d341a45345e2ef808848b1e1a2015baac/}{permalink})
 was automatically generated
-from \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/60665445fb0bac23fa9f57b9b11fdac1fef30191}{habi/zmk-tooth-cohort-method-manuscript@6066544}
+from \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/6cc6138d341a45345e2ef808848b1e1a2015baac}{habi/zmk-tooth-cohort-method-manuscript@6cc6138}
 on November 5, 2020.
 
 \hypertarget{authors}{%
@@ -418,3 +502,5 @@ The authors declare that they have no known competing financial interests or per
 \leavevmode\hypertarget{ref-Q20Bxdsr}{}%
 36. Jupyter P, Bussonnier M, Forde J, Freeman J, Granger B, Head T, et al. Binder 2.0 - Reproducible, interactive, sharable environments for science at scale. SciPy. 2018. doi:\href{https://doi.org/10.25080/majora-4af1f417-011}{10.25080/majora-4af1f417-011}.
 \end{cslreferences}
+
+\end{document}
