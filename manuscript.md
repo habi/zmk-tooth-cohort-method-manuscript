@@ -6,8 +6,8 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-11-05'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta name=\"citation_title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta property=\"og:title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta property=\"twitter:title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta name=\"dc.date\" content=\"2020-11-05\" />\n<meta name=\"citation_publication_date\" content=\"2020-11-05\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"David Haberth\xFCr\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3388-9187\" />\n<meta name=\"twitter:creator\" content=\"@habi\" />\n<meta name=\"citation_author\" content=\"Ruslan Hlushchuk\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6722-8996\" />\n<meta name=\"citation_author\" content=\"Thomas Gerhard Wolf\" />\n<meta name=\"citation_author_institution\" content=\"Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Periodontology and Operative Dentistry, University Medical Center of the Johannes-Gutenberg-University Mainz, Mainz, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4044-1893\" />\n<link rel=\"canonical\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"og:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/6cc6138d341a45345e2ef808848b1e1a2015baac/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/6cc6138d341a45345e2ef808848b1e1a2015baac/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/6cc6138d341a45345e2ef808848b1e1a2015baac/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/habi/zmk-tooth-cohort-method-manuscript/raw/6cc6138d341a45345e2ef808848b1e1a2015baac/content/images/Tooth045.manubot.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/habi/zmk-tooth-cohort-method-manuscript/raw/6cc6138d341a45345e2ef808848b1e1a2015baac/content/images/Tooth045.manubot.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-11-10'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta name=\"citation_title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta property=\"og:title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta property=\"twitter:title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta name=\"dc.date\" content=\"2020-11-10\" />\n<meta name=\"citation_publication_date\" content=\"2020-11-10\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"David Haberth\xFCr\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3388-9187\" />\n<meta name=\"twitter:creator\" content=\"@habi\" />\n<meta name=\"citation_author\" content=\"Ruslan Hlushchuk\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6722-8996\" />\n<meta name=\"citation_author\" content=\"Thomas Gerhard Wolf\" />\n<meta name=\"citation_author_institution\" content=\"Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Periodontology and Operative Dentistry, University Medical Center of the Johannes-Gutenberg-University Mainz, Mainz, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4044-1893\" />\n<link rel=\"canonical\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"og:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/877b421bd54e45c8867c3532d8125a141e25bf7d/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/877b421bd54e45c8867c3532d8125a141e25bf7d/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/877b421bd54e45c8867c3532d8125a141e25bf7d/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/habi/zmk-tooth-cohort-method-manuscript/raw/877b421bd54e45c8867c3532d8125a141e25bf7d/content/images/Tooth045.manubot.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/habi/zmk-tooth-cohort-method-manuscript/raw/877b421bd54e45c8867c3532d8125a141e25bf7d/content/images/Tooth045.manubot.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -24,15 +24,15 @@ title: Automated segmentation and description of the internal morphology of huma
 
 
 A preprint of this manuscript is available on *bioRxiv* at <https://doi.org/10.1101/2020.10.27.356998> and has been submitted to [*BMC Oral Health*](https://bmcoralhealth.biomedcentral.com/).
-This version of the manuscript [has been updated](https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...6cc6138d341a45345e2ef808848b1e1a2015baac) since the preprint deposition.
+This version of the manuscript [has been updated](https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...877b421bd54e45c8867c3532d8125a141e25bf7d) since the preprint deposition.
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/6cc6138d341a45345e2ef808848b1e1a2015baac/))
+([permalink](https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/877b421bd54e45c8867c3532d8125a141e25bf7d/))
 was automatically generated
-from [habi/zmk-tooth-cohort-method-manuscript@6cc6138](https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/6cc6138d341a45345e2ef808848b1e1a2015baac)
-on November 5, 2020.
+from [habi/zmk-tooth-cohort-method-manuscript@877b421](https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/877b421bd54e45c8867c3532d8125a141e25bf7d)
+on November 10, 2020.
 </em></small>
 
 ## Authors
@@ -94,6 +94,7 @@ It is a helpful tool for the detailed description and characterization of the in
 - Physiological foramen geometry
 - Root canal configuration
 
+
 ## Introduction {.page_break_before}
 
 Successful endodontic treatments require a precise knowledge of the external and internal morphology of the teeth [@doi:10/c9wr8n].
@@ -123,7 +124,7 @@ We achieve this by using free and open-source software [@isbn:978-0262062466], c
 ### Tooth selection
 
 A total of 104 extracted human permanent mandibular canines were collected from university medical centers in southwest Germany and Switzerland.
-All teeth included were extracted for reasons unrelated to the study and are so-called excess material making an institutional review board approval unnecessary for the purpose of this investigation.
+All included teeth were extracted for reasons unrelated to the study and are so-called excess material making an institutional review board approval unnecessary for the purpose of this investigation.
 The teeth were single-rooted and investigated according to their morphologic criteria.
 Inclusion criteria for teeth selection were complete coronal and root development and the absence of root fracture and resorption, coronal and radicular caries and endodontic treatment.
 Calculus as well as hard and soft tissue was removed using an ultrasonic scaler.
@@ -269,31 +270,44 @@ A copy with two samples from the cohort can be run in your browser without insta
 
 
 ## Conclusions {.page_break_before}
-
 The presented method offers an efficient approach to scan, check and preview micro-computer tomographic datasets of many teeth.
 We describe a helpful, free and open-source software tool to prepare datasets for precise description and characterization of the internal morphology of human permanent teeth using automated segmentation of features of interest.
 Due to the high reproducibility and standardization of the presented method, datasets of large cohorts and populations can be investigated easily and rapidly.
 
 
-## Acknowledgements
+## Declarations {.page_break_before}
 
-We thank Oleksiy-Zakhar Khoma (Institute of Anatomy, University of Bern, Switzerland) for designing [the sample holder that we used for scanning the teeth](https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/tooth_holder3.stl).
-We thank Jennifer Fazzari (Institute of Anatomy, University of Bern, Switzerland) for proof-reading the manuscript.
-We thank Andrea Anderegg and Michael Stiebritz (both Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland) and Valentin Djonov (Institute of Anatomy, University of Bern, Switzerland) for their kind support.
+### Ethics approval, consent to participate and consent for publication
+
+The 104 human permanent mandibular canines in this study were collected from university medical centers in southwest Germany and Switzerland.
+All included teeth were extracted for reasons unrelated to the study and are so-called excess material.
+This makes an ethics approval unnecessary for the purpose of this investigation, as well as consent to participate and for publication.
+
+### Availability of data and materials
+
+Two tooth datasets are available to download in the GitHub repository with the analysis notebook [@doi:10.5281/zenodo.3999402].
+The other datasets used for the current study are available from the corresponding author on reasonable request.
+
+### Competing interests
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+### Funding
+
 This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
 
-
-## Contributions
+### Authors' contribution
 
 DH scanned the teeth, wrote the analysis notebook and the original draft of the manuscript.
 RH contributed with discussion during the development of the method and reviewed the manuscript.
 TGW contributed with ideas and discussion for developing the method, discussed the results, edited and reviewed the manuscript.
 All authors read and approved the final manuscript.
 
+### Acknowledgements
 
-## Conflict of interest statement
-
-The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+We thank Oleksiy-Zakhar Khoma (Institute of Anatomy, University of Bern, Switzerland) for designing [the sample holder that we used for scanning the teeth](https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/tooth_holder3.stl).
+We thank Jennifer Fazzari (Institute of Anatomy, University of Bern, Switzerland) for proof-reading the manuscript.
+We thank Andrea Anderegg and Michael Stiebritz (both Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland) and Valentin Djonov (Institute of Anatomy, University of Bern, Switzerland) for their kind support.
 
 
 ## References {.page_break_before}
