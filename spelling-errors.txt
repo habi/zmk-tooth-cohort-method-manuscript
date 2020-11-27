@@ -1,6 +1,7 @@
 Acknowledgements
 Aluminium
 Anderegg
+anonymized
 artefacts
 binarized
 bioRxiv
@@ -19,13 +20,14 @@ endodontic
 extractedslices
 Fazzari
 foramen
-foramina
+Foramina
 Formlabs
 Gerhard
 Haberthür
 habi
 Hamamatsu
 Hlushchuk
+Humanforschungsgesetz
 itkwidgets
 Jupyter
 Khoma
@@ -44,7 +46,7 @@ Paqué
 Periodontology
 PNG
 preprint
-Pulpa
+pulpa
 radicular
 README
 reproducibility
