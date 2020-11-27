@@ -27,7 +27,6 @@ Haberthür
 habi
 Hamamatsu
 Hlushchuk
-Humanforschungsgesetz
 itkwidgets
 Jupyter
 Khoma
@@ -46,7 +45,7 @@ Paqué
 Periodontology
 PNG
 preprint
-pulpa
+Pulpa
 radicular
 README
 reproducibility
