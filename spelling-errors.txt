@@ -20,7 +20,7 @@ endodontic
 extractedslices
 Fazzari
 foramen
-foramina
+Foramina
 Formlabs
 Gerhard
 Haberthür
@@ -72,4 +72,4 @@ voxel
 XIMEA
 xiRAY
 Zakhar
-Zarr
+zarr
