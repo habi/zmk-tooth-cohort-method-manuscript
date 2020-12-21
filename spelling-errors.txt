@@ -45,7 +45,7 @@ Paqué
 Periodontology
 PNG
 preprint
-Pulpa
+pulpa
 radicular
 README
 reproducibility
