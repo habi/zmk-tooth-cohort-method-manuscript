@@ -83,13 +83,13 @@
 \maketitle
 
 A preprint of this manuscript is available on \emph{bioRxiv} at \url{https://doi.org/10.1101/2020.10.27.356998} and has been submitted to \href{https://bmcoralhealth.biomedcentral.com/}{\emph{BMC Oral Health}}.
-This version of the manuscript \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...8fbce1cc53f2190b557d7a08e2ffe7c01c47e5f5}{has been updated} since the preprint deposition.
+This version of the manuscript \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...ede04890238d3d0cc4f5748bf1fa389b1dd606b3}{has been updated} since the preprint deposition.
 
 This manuscript
-(\href{https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/8fbce1cc53f2190b557d7a08e2ffe7c01c47e5f5/}{permalink})
+(\href{https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/ede04890238d3d0cc4f5748bf1fa389b1dd606b3/}{permalink})
 was automatically generated
-from \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/8fbce1cc53f2190b557d7a08e2ffe7c01c47e5f5}{habi/zmk-tooth-cohort-method-manuscript@8fbce1c}
-on November 27, 2020.
+from \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/ede04890238d3d0cc4f5748bf1fa389b1dd606b3}{habi/zmk-tooth-cohort-method-manuscript@ede0489}
+on December 21, 2020.
 
 \hypertarget{authors}{%
 \subsection{Authors}\label{authors}}
@@ -214,7 +214,7 @@ The reconstructed PNG slices per tooth are on average 3.13 GB in size, totalling
 \hypertarget{image-processing}{%
 \subsubsection{Image processing}\label{image-processing}}
 
-We wrote a Jupyter {[}\protect\hyperlink{ref-pQ6Wbz73}{21}{]} notebook with Python code which allowed for scans to be checked as soon as they were reconstructed during scanning of the first items in the batch.
+We wrote a Jupyter (version 4.5.0) {[}\protect\hyperlink{ref-pQ6Wbz73}{21}{]} notebook with Python code (version 3.7.3) which allowed for scans to be checked as soon as they were reconstructed during scanning of the first items in the batch.
 Re-runs of the notebook added newly scanned and reconstructed teeth to the analysis, facilitating preliminary checks and analysis of already scanned teeth.
 The notebook used for the analysis presented in this manuscript is freely available online {[}\protect\hyperlink{ref-tZRGGuMm}{22}{]}.
 The important steps of the analysis steps are described in detail below.
@@ -222,7 +222,7 @@ The important steps of the analysis steps are described in detail below.
 \hypertarget{preparation}{%
 \paragraph{Preparation}\label{preparation}}
 
-In a first step we extracted all necessary parameters from the log file of each scan to store into a \emph{Pandas} {[}\protect\hyperlink{ref-U5AcoDOX}{23}{]} dataframe for comparison and verification of all the necessary scan parameters of each scanned tooth with all the others.
+In a first step we extracted all necessary parameters from the log file of each scan to store into a \emph{Pandas} (version 0.25.1) {[}\protect\hyperlink{ref-U5AcoDOX}{23}{]} dataframe for comparison and verification of all the necessary scan parameters of each scanned tooth with all the others.
 Afterwards, the preview image of each scan was loaded and an overview image of all the scans was generated (see Figure \ref{fig:overviews}, in which we show a randomly selected subset of the whole tooth cohort).
 
 \begin{figure}
@@ -236,15 +236,16 @@ The irregular brightness along the vertical axis stems from the rudimentary stit
 }
 \end{figure}
 
-We used \emph{Dask} {[}\protect\hyperlink{ref-hj1CnyWB}{24}{]} to read the set of axial reconstruction PNG slices for each sample.
-The \emph{Zarr} library {[}\protect\hyperlink{ref-10Fk3ASPz}{25}{]} was used to efficiently store a chunked, compressed, two-dimensional array representation of the reconstructions on disk for further analysis, with a total size of 330 GB on disk.
+We used \emph{Dask} (version 2.5.2) {[}\protect\hyperlink{ref-hj1CnyWB}{24}{]} to read the set of axial reconstruction PNG slices for each sample.
+The reconstructions were stored on disk in the \emph{Zarr} storage format {[}\protect\hyperlink{ref-10Fk3ASPz}{25}{]}, an efficient, chunked and compressed array representation of the single images.
+The zarr-representation of the reconstructions were used for further analysis and had a total size of 330 GB on disk.
 
 \hypertarget{dataset-cropping}{%
 \paragraph{Dataset cropping}\label{dataset-cropping}}
 
 To reduce the size of the data on disk, we cropped the datasets to their minimal amount, i.e.~to the smallest cuboid encompassing the full tooth.
 This was done by segmenting the dataset into tooth and background using a common, fixed gray-value threshold for all datasets.
-From this refined dataset, we removed small noise by removing small speckles with the \href{https://scikit-image.org/docs/dev/api/skimage.morphology.html\#skimage.morphology.remove_small_objects}{\texttt{remove\_small\_object}} function of \emph{scikit-image} {[}\protect\hyperlink{ref-stvWEJeu}{26}{]} and subsequently isolated the biggest object with the \href{https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.find_objects.html}{\texttt{find\_objects}} function of \emph{SciPy} {[}\protect\hyperlink{ref-8Miti2Gz}{27}{]}.
+From this refined dataset, we removed small noise by removing small speckles with the \href{https://scikit-image.org/docs/dev/api/skimage.morphology.html\#skimage.morphology.remove_small_objects}{\texttt{remove\_small\_object}} function of \emph{scikit-image} (version 0.15.0) {[}\protect\hyperlink{ref-stvWEJeu}{26}{]} and subsequently isolated the biggest object with the \href{https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.find_objects.html}{\texttt{find\_objects}} function of \emph{SciPy} (version 1.3.1) {[}\protect\hyperlink{ref-8Miti2Gz}{27}{]}.
 The border of this largest object represents the smallest possible region in which the tooth is contained.
 By removing the empty parts of each three-dimensional dataset containing no information about the teeth, we reduced the size of all datasets nearly three-fold, to approximately 1.11 GB per sample, or a total of 115 GB for all 104 teeth thus facilitating further handling of the data.
 
@@ -274,8 +275,8 @@ A \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/blob/master/c
 }
 \end{figure}
 
-This was done by calculating the brightness value along the longest axis of the tooth followed by smoothing of the curve using a \href{https://www.statsmodels.org/devel/generated/statsmodels.nonparametric.smoothers_lowess.lowess.html}{locally weighted scatterplot smoothing} implemented in the \emph{statsmodels} library {[}\protect\hyperlink{ref-E4OYV0qi}{29}{]}.
-By finding the maximal derivation of this curve with \emph{NumPy} {[}\protect\hyperlink{ref-OiM2HfsY}{30}{]}, we were easily able to detect the border between enamel and dentin (EDB).
+This was done by calculating the brightness value along the longest axis of the tooth followed by smoothing of the curve using a \href{https://www.statsmodels.org/devel/generated/statsmodels.nonparametric.smoothers_lowess.lowess.html}{locally weighted scatterplot smoothing} implemented in the \emph{statsmodels} library (version 0.10.1) {[}\protect\hyperlink{ref-E4OYV0qi}{29}{]}.
+By finding the maximal derivation of this curve with \emph{NumPy} (version 1.17.2) {[}\protect\hyperlink{ref-OiM2HfsY}{30}{]}, we were easily able to detect the border between enamel and dentin (EDB).
 From the part of the tooth below the detected border, we then extracted four equidistant slices.
 These slices and an overview of the tooth were written to a separate file for each sample, facilitating characterization of each tooth without manually looking for the correct axial reconstruction (see Figure \ref{fig:extractedslices}).
 
@@ -303,7 +304,7 @@ We further removed speckles in the remains and closed small holes in the remaini
 \href{https://scikit-image.org/docs/dev/api/skimage.morphology.html\#skimage.morphology.remove_small_holes}{\texttt{remove\_small\_holes}} functions, respectively).
 Datasets of the pulpa have again been written to disk for further analysis and display.
 Since these are binarized datasets, we were able to store them on disk very efficiently, with the total size of all 104 pulpa datasets being only 309 MB.
-Display of the datasets for visual assessment was done with \emph{itkwidgets} {[}\protect\hyperlink{ref-v85zR2Z2}{31}{]}, permitting a basic 3D visualization of each tooth for quality control (an example is shown in Figure \ref{fig:3ditkwidgets}).
+Display of the datasets for visual assessment was done with \emph{itkwidgets} (version 0.21.1) {[}\protect\hyperlink{ref-v85zR2Z2}{31}{]}, permitting a basic 3D visualization of each tooth for quality control (an example is shown in Figure \ref{fig:3ditkwidgets}).
 
 \begin{figure}
 \hypertarget{fig:3ditkwidgets}{%
@@ -318,7 +319,7 @@ The whole tooth has a length of 2.39 cm.}\label{fig:3ditkwidgets}
 \hypertarget{analysis-of-the-physiological-foramen-geometry}{%
 \subsubsection{Analysis of the physiological foramen geometry}\label{analysis-of-the-physiological-foramen-geometry}}
 
-The apical foramen of the teeth was evaluated as previously described {[}\protect\hyperlink{ref-1Gn1pVZXt}{19}{]} by assessing the bottom part of each tooth using \emph{Fiji} {[}\protect\hyperlink{ref-Fkmz2cmo}{32}{]} to scroll through the stack of images and measure the diameter of the physiological and anatomical foramen as well as the distance between the physiological and anatomical foramina.
+The apical foramen of the teeth was evaluated as previously described {[}\protect\hyperlink{ref-1Gn1pVZXt}{19}{]} by assessing the bottom part of each tooth using \emph{Fiji} (version 1.53c) {[}\protect\hyperlink{ref-Fkmz2cmo}{32}{]} to scroll through the stack of images and measure the diameter of the physiological and anatomical foramen as well as the distance between the physiological and anatomical foramina.
 The physiological (main) foramen was defined as one with a diameter of 0.20 mm or more.
 Foramina with diameters smaller than 0.20 mm were defined as accessory ones {[}\protect\hyperlink{ref-1Gn1pVZXt}{19}{]}.
 Since we have extracted the pulpa for each tooth, we can easily calculate its diameter at each point, that is, exactly calculate the exact Euclidean distance transform (EDT) where each 3D voxel of the pulpa is labelled with its distance relative to the background (wall of the canal).
@@ -525,7 +526,7 @@ We thank Andrea Anderegg and Michael Stiebritz (both Department of Restorative, 
 36. Jupyter P, Bussonnier M, Forde J, Freeman J, Granger B, Head T, et al. Binder 2.0 - Reproducible, interactive, sharable environments for science at scale. SciPy. 2018. doi:\href{https://doi.org/10.25080/majora-4af1f417-011}{10.25080/majora-4af1f417-011}.
 
 \leavevmode\hypertarget{ref-10OKzEtEb}{}%
-37. CC 810.30 Federal Act of 30 September 2011 on Research involving Human Beings (Human Research Act, HRA). \url{https://www.admin.ch/opc/en/classified-compilation/20061313/index.html}. Accessed 27 Nov 2020.
+37. CC 810.30 Federal Act of 30 September 2011 on Research involving Human Beings (Human Research Act, HRA). \url{https://www.admin.ch/opc/en/classified-compilation/20061313/index.html}. Accessed 21 Dec 2020.
 \end{cslreferences}
 
 \end{document}
