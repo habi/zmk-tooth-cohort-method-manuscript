@@ -83,12 +83,12 @@
 \maketitle
 
 A preprint of this manuscript is available on \emph{bioRxiv} at \url{https://doi.org/10.1101/2020.10.27.356998} and has been submitted to \href{https://bmcoralhealth.biomedcentral.com/}{\emph{BMC Oral Health}}.
-This version of the manuscript \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...0e2a30a17738f827ada8fd92cc93e94377c70c1f}{has been updated} since the preprint deposition.
+This version of the manuscript \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...57dfc2ab6e451a9d9c3c64ab5d07fb8b9d86af29}{has been updated} since the preprint deposition.
 
 This manuscript
-(\href{https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/0e2a30a17738f827ada8fd92cc93e94377c70c1f/}{permalink})
+(\href{https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/57dfc2ab6e451a9d9c3c64ab5d07fb8b9d86af29/}{permalink})
 was automatically generated
-from \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/0e2a30a17738f827ada8fd92cc93e94377c70c1f}{habi/zmk-tooth-cohort-method-manuscript@0e2a30a}
+from \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/57dfc2ab6e451a9d9c3c64ab5d07fb8b9d86af29}{habi/zmk-tooth-cohort-method-manuscript@57dfc2a}
 on January 11, 2021.
 
 \hypertarget{authors}{%
@@ -314,7 +314,7 @@ We thus wrote a function to extract the pulpa based on its appearance in the axi
 By using an automated Otsu thresholding implemented in \emph{scikit-image} {[}\protect\hyperlink{ref-stvWEJeu}{26}{]} on each slice of the datasets, we separated the tooth from the background.
 By inversion of the image we select all that is not tooth.
 From this, we remove all the pixels that touch the image border i.e.~the air surrounding the tooth, with the \href{https://scikit-image.org/docs/dev/api/skimage.segmentation.html\#skimage.segmentation.clear_border}{\texttt{clear\_border}} function.
-We further removed small speckles (with an area of less than 64 pixels) in the remains and closed holes smaller than 100 pixels in the remaining image data to extract the pulpa from inside the tooth (with the \href{https://scikit-image.org/docs/dev/api/skimage.morphology.html\#skimage.morphology.remove_small_objects}{\texttt{remove\_small\_objects}} and
+We further removed speckles with an area of less than 64 pixels and closed holes with an area smaller than 100 pixels in the remaining image data to extract the pulpa from inside the tooth (with the \href{https://scikit-image.org/docs/dev/api/skimage.morphology.html\#skimage.morphology.remove_small_objects}{\texttt{remove\_small\_objects}} and
 \href{https://scikit-image.org/docs/dev/api/skimage.morphology.html\#skimage.morphology.remove_small_holes}{\texttt{remove\_small\_holes}} functions, respectively).
 Datasets of the pulpa have again been written to disk for further analysis and display.
 Since these are binarized datasets, we were able to store them on disk very efficiently, with the total size of all 104 pulpa datasets being only 309 MB.
