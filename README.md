@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://habi.github.io/zmk-tooth-cohort-method-manuscript/>.
-The permalink for this webpage version is <https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/0e2a30a17738f827ada8fd92cc93e94377c70c1f/>.
+The permalink for this webpage version is <https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/57dfc2ab6e451a9d9c3c64ab5d07fb8b9d86af29/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`0e2a30a17738f827ada8fd92cc93e94377c70c1f`](https://github.com/habi/zmk-tooth-cohort-method-manuscript/commit/0e2a30a17738f827ada8fd92cc93e94377c70c1f).
+[`57dfc2ab6e451a9d9c3c64ab5d07fb8b9d86af29`](https://github.com/habi/zmk-tooth-cohort-method-manuscript/commit/57dfc2ab6e451a9d9c3c64ab5d07fb8b9d86af29).
