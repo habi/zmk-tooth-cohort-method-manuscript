@@ -1,10 +1,14 @@
 # compile to png with
-# dot workflow.dot -Tpng -o workflow.png
+# dot workflow.dot -Tpng -o images/workflow.png
 digraph Workflow {
+    
+    ordering=out  # Order as given in text: https://forum.graphviz.org/t/ordering-nodes-dot/280
 
-    splines=ortho;
+    #splines=false;
+    #splines=ortho;
+    #splines=polyline
     bgcolor=transparent;
-    #newrank=true; # https://stackoverflow.com/a/18410951/323100
+    newrank=true; # https://stackoverflow.com/a/18410951/323100
 
     edge [arrowhead = o];
     node [shape=box, style="rounded,filled"];
@@ -14,76 +18,90 @@ digraph Workflow {
     subgraph cluster_uct {
         label = "Micro-CT";
         color=grey;
-        penwidth=2;
+        #penwidth=2;
         
-        uct [label="Tomographic\nScanning"];
-        reco [label="Reconstruction"];
+        uct [label="Tomographic\nscanning"];
+        reco [label="Tomographic\nreconstruction"];
         
         uct -> reco;
         }
+        
     prep -> uct;
+    {rank=same;prep;uct}
     
     subgraph cluster_analysis {
-        label = "Analysis notebook";
+        label = "Analysis";
         color=grey;
         penwidth=2;
         
-        dask [label="Conversion to zarr"];
-        log [label="Read parameters\nfrom log files"]; 
-        bmp [label="Check scans"];
-        
-        reco -> dask -> crop -> mid;        
-        reco -> log[constraint=false];
-        reco -> bmp[constraint=false];
-        
-        {rank=same;dask;log;bmp}
-        
-        crop [label="Extraction of tooth\nfrom large tomographic\ndatasets"];
+        dask [label="Conversion to\nzarr format"];
+        log [label="Read relevant\nparameters from\nlog files"]; 
+        check [label="Check scan\nintegrity"];
+        crop [label="Tooth selection\nfrom tomographic\ndatasets"];
+        pulpa [label="Root canal system\nextraction"];
+        apex [label="Apical third isolation"];        
+        reco -> check -> dask -> crop -> apex;#[constraint=false];
+        check -> log;
         crop -> pulpa;
-        mip  [label="Maximum intensity\nprojections"];        
+    
+        mid [label="Middle images"];                
+        mip [label="Maximum intensity\nprojections"];        
+        crop -> mid;
+        X [label="", style="invis"];
         crop -> mip;
-        apex [label="Isolation of apex"];
-        mid  [label="Middle images"];        
-        crop -> apex
-        apex -> mip [constraint=false];
-        apex -> mid [constraint=false];
-        {rank=same;mip;mid;area}
-        
-        briseno [label="Briseño\nclassification"];
+        {rank=same;mip;mid;X;}
+        apex -> mip;#[constraint=false];
+        apex -> mid[constraint=false];
+        briseno [label="Root canal system\nclassification"];
         crop -> briseno;
-        pulpa [label="Extraction of \npulpa"];
-        
-        {rank=same;briseno;pulpa;edt}
 
-        apex -> pulpa [constraint=false];
-        edt [label="Euclidean distance\ntransformation"];        
+        #apex -> pulpa [constraint=false];
+        edt [label="Euclidean distance\ntransformation"];
+        
+        apex -> X -> edt  [style = invis ];
         apex -> edt;
         threed [label="3D view"]
-        crop -> threed[constraint=false];
-        apex -> threed[constraint=false];
-        pulpa -> threed -> bmp[constraint=false];
-        area [label="Calculation of pulpa area"]
+        
+        crop -> threed;#[constraint=false];
+        apex -> threed;#[constraint=false];
+        pulpa -> threed;#[constraint=false];
+        area [label="Root canal system\narea calculation"]
         pulpa -> area;
-        apex -> area;
-        merge [label="Merged data for manual foramen analysis"]
+        #apex -> area;
+        merge [label="Merged data for\nmanual physiological\nforamen analysis"]
         pulpa -> merge;
         edt -> merge;
+        #{rank=same;threed;merge;edt}
+        #{rank=same;briseno;merge;log}
+        
+        #{ rank=max;merge;briseno;}
+        #{ rank=min; crop; }
+        
+        #{rank=same;threed;crop;}
+        #{rank=same;apex;briseno;pulpa;}
+        #{rank=same;dask;log;check}
+        #{rank=same;crop;threed}
+        #{rank=same;apex;pulpa;briseno;}
+        #{rank=same;briseno;pulpa;edt}
+
+        {rank=max;merge;briseno;area;}
+
         }
         
     #subgraph cluster_output {
-    #    color=grey;
-    #    penwidth=2;
-    #    
-    #    disk [label="Save to disk"];
-    #
-    #    log -> disk;
-    #    area -> disk;
-    #    crop -> disk;
-    #    mid -> disk;
-    #    mip -> disk;        
-    #    briseno -> disk;
-    #    pulpa -> disk;
-    #    edt -> disk;
-    #    merge -> disk;
-    #    }
+#        color=grey;
+#        penwidth=2;
+#        
+#        disk [label="Save to disk"];
+#    
+#        log -> disk;
+#        area -> disk;
+#        crop -> disk;
+#        mid -> disk;
+#        mip -> disk;        
+#        briseno -> disk;
+#        pulpa -> disk;
+#        edt -> disk;
+#        merge -> disk;
+#        }
 }
