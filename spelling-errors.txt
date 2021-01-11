@@ -72,4 +72,4 @@ voxel
 XIMEA
 xiRAY
 Zakhar
-zarr
+Zarr
