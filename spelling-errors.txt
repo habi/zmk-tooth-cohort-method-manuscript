@@ -46,7 +46,7 @@ Paqué
 Periodontology
 PNG
 preprint
-Pulpa
+pulpa
 radicular
 README
 reproducibility
@@ -70,7 +70,8 @@ totalling
 trepanation
 vivo
 voxel
+voxels
 XIMEA
 xiRAY
 Zakhar
-Zarr
+zarr
