@@ -83,12 +83,12 @@
 \maketitle
 
 A preprint of this manuscript is available on \emph{bioRxiv} at \url{https://doi.org/10.1101/2020.10.27.356998} and has been submitted to \href{https://bmcoralhealth.biomedcentral.com/}{\emph{BMC Oral Health}}.
-This version of the manuscript \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...57dfc2ab6e451a9d9c3c64ab5d07fb8b9d86af29}{has been updated} since the preprint deposition.
+This version of the manuscript \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...07a0a8aed6642483a4a54a01d1578fe325802f88}{has been updated} since the preprint deposition.
 
 This manuscript
-(\href{https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/57dfc2ab6e451a9d9c3c64ab5d07fb8b9d86af29/}{permalink})
+(\href{https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/07a0a8aed6642483a4a54a01d1578fe325802f88/}{permalink})
 was automatically generated
-from \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/57dfc2ab6e451a9d9c3c64ab5d07fb8b9d86af29}{habi/zmk-tooth-cohort-method-manuscript@57dfc2a}
+from \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/07a0a8aed6642483a4a54a01d1578fe325802f88}{habi/zmk-tooth-cohort-method-manuscript@07a0a8a}
 on January 11, 2021.
 
 \hypertarget{authors}{%
@@ -227,7 +227,7 @@ The reconstructed PNG slices per tooth are on average 3.13 GB in size, totalling
 \hypertarget{image-processing}{%
 \subsubsection{Image processing}\label{image-processing}}
 
-We wrote a Jupyter {[}\protect\hyperlink{ref-pQ6Wbz73}{21}{]} notebook with Python code (version 3.7.3) which allowed for scans to be checked as soon as they were reconstructed during scanning of the first items in the batch.
+We wrote a \emph{Jupyter} (version 4.5.0) {[}\protect\hyperlink{ref-pQ6Wbz73}{21}{]} notebook with \emph{Python} code (version 3.7.3) which allowed for scans to be checked as soon as they were reconstructed during scanning of the first items in the batch.
 Re-runs of the notebook added newly scanned and reconstructed teeth to the analysis, facilitating preliminary checks and analysis of already scanned teeth.
 The notebook used for the analysis presented in this manuscript is freely available online {[}\protect\hyperlink{ref-tZRGGuMm}{22}{]}.
 The important steps of the analysis steps are described in detail below.
@@ -249,7 +249,7 @@ The irregular brightness along the vertical axis stems from the rudimentary stit
 }
 \end{figure}
 
-We used \emph{Dask} {[}\protect\hyperlink{ref-hj1CnyWB}{24}{]} to read the set of axial reconstruction PNG slices for each sample.
+We used \emph{Dask} (version 2.5.2) {[}\protect\hyperlink{ref-hj1CnyWB}{24}{]} to read the set of axial reconstruction PNG slices for each sample.
 The reconstructions were stored on disk in the \emph{Zarr} storage format {[}\protect\hyperlink{ref-10Fk3ASPz}{25}{]}, an efficient, chunked and compressed array representation of the single images.
 The zarr-representation of the reconstructions were used for further analysis and had a total size of 330 GB on disk.
 
@@ -273,7 +273,7 @@ Since the teeth were scanned rotationally invariant, the two anatomical planes a
 \paragraph{Detection of enamel-dentin border}\label{detection-of-enamel-dentin-border}}
 
 To facilitate the global characterization of the tooth, we extracted slices at four defined locations along the tooth.
-These slices, located at the EDB, the bottom of the tooth and equidistantly between, were then used to describe the root canal configuration with a 4-digit system and to assess the number of main foramina, both according to a previously proposed method {[}\protect\hyperlink{ref-ZTgDEakx}{17}{]}.
+These slices, located at the border between enamel and dentin (EDB), the bottom of the tooth and equidistantly between, were then used to describe the root canal configuration with a 4-digit system and to assess the number of main foramina, both according to a previously proposed method {[}\protect\hyperlink{ref-ZTgDEakx}{17}{]}.
 The location of extracted slices is shown in Figure \ref{fig:3dmevislab}.
 
 \begin{figure}
@@ -290,7 +290,7 @@ A \href{https://github.com/habi/zmk-tooth-cohort-method-manuscript/blob/master/c
 \end{figure}
 
 This was done by calculating the brightness value along the longest axis of the tooth followed by smoothing of the curve using a \href{https://www.statsmodels.org/devel/generated/statsmodels.nonparametric.smoothers_lowess.lowess.html}{locally weighted scatterplot smoothing} implemented in the \emph{statsmodels} library (version 0.10.1) {[}\protect\hyperlink{ref-E4OYV0qi}{29}{]}.
-By finding the maximal derivation of this curve with \emph{NumPy} (version 1.17.2) {[}\protect\hyperlink{ref-OiM2HfsY}{30}{]}, we were easily able to detect the border between enamel and dentin (EDB).
+By finding the maximal derivation of this curve with \emph{NumPy} (version 1.17.2) {[}\protect\hyperlink{ref-OiM2HfsY}{30}{]}, we were easily able to detect the EDB.
 From the part of the tooth below the detected border, we then extracted four equidistant slices.
 These slices and an overview of the tooth were written to a separate file for each sample, facilitating characterization of each tooth without manually looking for the correct axial reconstruction (see Figure \ref{fig:extractedslices}).
 
