@@ -55,13 +55,13 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/d01b425f6da7e4eb44fda1f833e68b7cdbcc911d/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/d01b425f6da7e4eb44fda1f833e68b7cdbcc911d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/d01b425f6da7e4eb44fda1f833e68b7cdbcc911d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/0e2a30a17738f827ada8fd92cc93e94377c70c1f/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/0e2a30a17738f827ada8fd92cc93e94377c70c1f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/0e2a30a17738f827ada8fd92cc93e94377c70c1f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/habi/zmk-tooth-cohort-method-manuscript/raw/d01b425f6da7e4eb44fda1f833e68b7cdbcc911d/content/images/Tooth045.manubot.png" />
-  <meta property="twitter:image" content="https://github.com/habi/zmk-tooth-cohort-method-manuscript/raw/d01b425f6da7e4eb44fda1f833e68b7cdbcc911d/content/images/Tooth045.manubot.png" />
+  <meta property="og:image" content="https://github.com/habi/zmk-tooth-cohort-method-manuscript/raw/0e2a30a17738f827ada8fd92cc93e94377c70c1f/content/images/Tooth045.manubot.png" />
+  <meta property="twitter:image" content="https://github.com/habi/zmk-tooth-cohort-method-manuscript/raw/0e2a30a17738f827ada8fd92cc93e94377c70c1f/content/images/Tooth045.manubot.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -72,12 +72,12 @@
 <h1 class="title">Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT</h1>
 </header>
 <p>A preprint of this manuscript is available on <em>bioRxiv</em> at <a href="https://doi.org/10.1101/2020.10.27.356998" class="uri">https://doi.org/10.1101/2020.10.27.356998</a> and has been submitted to <a href="https://bmcoralhealth.biomedcentral.com/"><em>BMC Oral Health</em></a>.
-This version of the manuscript <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...d01b425f6da7e4eb44fda1f833e68b7cdbcc911d">has been updated</a> since the preprint deposition.</p>
+This version of the manuscript <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...0e2a30a17738f827ada8fd92cc93e94377c70c1f">has been updated</a> since the preprint deposition.</p>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/d01b425f6da7e4eb44fda1f833e68b7cdbcc911d/">permalink</a>)
+(<a href="https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/0e2a30a17738f827ada8fd92cc93e94377c70c1f/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/d01b425f6da7e4eb44fda1f833e68b7cdbcc911d">habi/zmk-tooth-cohort-method-manuscript@d01b425</a>
+from <a href="https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/0e2a30a17738f827ada8fd92cc93e94377c70c1f">habi/zmk-tooth-cohort-method-manuscript@0e2a30a</a>
 on January 11, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -200,7 +200,7 @@ The zarr-representation of the reconstructions were used for further analysis an
 <h4 id="dataset-cropping">Dataset cropping</h4>
 <p>To reduce the size of the data on disk, we cropped the datasets to their minimal amount, i.e. to the smallest cuboid encompassing the full tooth.
 This was done by segmenting the dataset into tooth and background using a common, fixed gray-value threshold for all datasets.
-We denoised this refined dataset by discarding speckles smaller than 1000 pixels with the <a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.remove_small_objects"><code>remove_small_object</code></a> function of <em>scikit-image</em> (version 0.15.0) <span class="citation" data-cites="stvWEJeu">[<a href="#ref-stvWEJeu" role="doc-biblioref">26</a>]</span> and subsequently isolated the biggest object with the <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.find_objects.html"><code>find_objects</code></a> function of <em>SciPy</em> (version 1.3.1) <span class="citation" data-cites="8Miti2Gz">[<a href="#ref-8Miti2Gz" role="doc-biblioref">27</a>]</span>.
+We denoised this refined dataset by discarding speckles with a volume smaller than 1000 voxels with the <a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.remove_small_objects"><code>remove_small_object</code></a> function of <em>scikit-image</em> (version 0.15.0) <span class="citation" data-cites="stvWEJeu">[<a href="#ref-stvWEJeu" role="doc-biblioref">26</a>]</span> and subsequently isolated the biggest object with the <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.find_objects.html"><code>find_objects</code></a> function of <em>SciPy</em> (version 1.3.1) <span class="citation" data-cites="8Miti2Gz">[<a href="#ref-8Miti2Gz" role="doc-biblioref">27</a>]</span>.
 The extent of this largest object represents the smallest possible region in which the tooth is contained.
 By removing the empty parts of each three-dimensional dataset containing no information about the teeth, we reduced the size of all datasets nearly three-fold, to approximately 1.11 GB per sample, or a total of 115 GB for all 104 teeth thus facilitating further handling of the data.</p>
 <h4 id="overview-images-for-visual-examination">Overview images for visual examination</h4>
@@ -240,7 +240,7 @@ We thus wrote a function to extract the pulpa based on its appearance in the axi
 By using an automated Otsu thresholding implemented in <em>scikit-image</em> <span class="citation" data-cites="stvWEJeu">[<a href="#ref-stvWEJeu" role="doc-biblioref">26</a>]</span> on each slice of the datasets, we separated the tooth from the background.
 By inversion of the image we select all that is not tooth.
 From this, we remove all the pixels that touch the image border i.e. the air surrounding the tooth, with the <a href="https://scikit-image.org/docs/dev/api/skimage.segmentation.html#skimage.segmentation.clear_border"><code>clear_border</code></a> function.
-We further removed speckles in the remains and closed small holes in the remaining image data to extract the pulpa from inside the tooth (with the <a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.remove_small_objects"><code>remove_small_objects</code></a> and
+We further removed small speckles (with an area of less than 64 pixels) in the remains and closed holes smaller than 100 pixels in the remaining image data to extract the pulpa from inside the tooth (with the <a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.remove_small_objects"><code>remove_small_objects</code></a> and
 <a href="https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.remove_small_holes"><code>remove_small_holes</code></a> functions, respectively).
 Datasets of the pulpa have again been written to disk for further analysis and display.
 Since these are binarized datasets, we were able to store them on disk very efficiently, with the total size of all 104 pulpa datasets being only 309 MB.
