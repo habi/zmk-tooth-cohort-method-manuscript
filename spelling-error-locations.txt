@@ -64,6 +64,7 @@ content/04.materials.methods.md:60:datasets
 content/04.materials.methods.md:61:dataset
 content/04.materials.methods.md:61:datasets
 content/04.materials.methods.md:62:dataset
+content/04.materials.methods.md:62:denoised
 content/04.materials.methods.md:62:scikit
 content/04.materials.methods.md:62:scikit
 content/04.materials.methods.md:62:scipy

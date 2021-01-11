@@ -12,6 +12,7 @@ Dask
 dataframe
 dataset
 datasets
+denoised
 ditkwidgets
 Djonov
 dmevislab
@@ -20,7 +21,7 @@ endodontic
 extractedslices
 Fazzari
 foramen
-foramina
+Foramina
 Formlabs
 Gerhard
 Haberthür
@@ -45,7 +46,7 @@ Paqué
 Periodontology
 PNG
 preprint
-pulpa
+Pulpa
 radicular
 README
 reproducibility
