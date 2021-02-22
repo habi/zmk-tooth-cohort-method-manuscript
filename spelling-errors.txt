@@ -10,7 +10,7 @@ Briseño
 Bruker
 Dask
 dataframe
-dataset
+Dataset
 datasets
 denoised
 ditkwidgets
@@ -21,7 +21,7 @@ endodontic
 extractedslices
 Fazzari
 foramen
-Foramina
+foramina
 Formlabs
 Gerhard
 Haberthür
@@ -64,6 +64,7 @@ Somerville
 statsmodels
 stereolithography
 Stiebritz
+susing
 TGW
 thresholding
 totalling
@@ -74,4 +75,4 @@ voxels
 XIMEA
 xiRAY
 Zakhar
-Zarr
+zarr

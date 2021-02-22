@@ -829,6 +829,7 @@
         ]
       ]
     },
+    "abstract": "SciPy is an open-source scientific computing library for the Python programming language. Since its initial release in 2001, SciPy has become a de facto standard for leveraging scientific algorithms in Python, with over 600 unique code contributors, thousands of dependent packages, over 100,000 dependent repositories and millions of downloads per year. In this work, we provide an overview of the capabilities and development practices of SciPy 1.0 and highlight some recent technical developments.",
     "container-title": "Nature Methods",
     "DOI": "10.1038/s41592-019-0686-2",
     "volume": "17",
@@ -1770,8 +1771,8 @@
       "date-parts": [
         [
           "2021",
-          1,
-          11
+          2,
+          22
         ]
       ]
     },
@@ -1796,14 +1797,14 @@
   {
     "id": "10OKzEtEb",
     "type": "webpage",
-    "title": "CC 810.30 Federal Act of 30 September 2011 on Research involving Human Beings (Human Research Act, HRA)",
-    "URL": "https://www.admin.ch/opc/en/classified-compilation/20061313/index.html",
+    "title": "Fedlex",
+    "URL": "https://www.fedlex.admin.ch/eli/cc/2013/617/en",
     "accessed": {
       "date-parts": [
         [
           "2021",
-          1,
-          11
+          2,
+          22
         ]
       ]
     },
