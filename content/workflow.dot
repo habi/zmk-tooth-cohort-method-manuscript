@@ -38,11 +38,11 @@ digraph Workflow {
         log [label="Read relevant\nparameters from\nlog files"]; 
         check [label="Check scan\nintegrity"];
         crop [label="Tooth selection\nfrom tomographic\ndatasets"];
-        pulpa [label="Root canal system\nextraction"];
+        rootcanal [label="Root canal system\nextraction"];
         apex [label="Apical third isolation"];        
         reco -> check -> dask -> crop -> apex;#[constraint=false];
         check -> log;
-        crop -> pulpa;
+        crop -> rootcanal;
     
         mid [label="Middle images"];                
         mip [label="Maximum intensity\nprojections"];        
@@ -55,7 +55,7 @@ digraph Workflow {
         briseno [label="Root canal system\nclassification"];
         crop -> briseno;
 
-        #apex -> pulpa [constraint=false];
+        #apex -> rootcanal [constraint=false];
         edt [label="Euclidean distance\ntransformation"];
         
         apex -> X -> edt  [style = invis ];
@@ -64,12 +64,12 @@ digraph Workflow {
         
         crop -> threed;#[constraint=false];
         apex -> threed;#[constraint=false];
-        pulpa -> threed;#[constraint=false];
+        rootcanal -> threed;#[constraint=false];
         area [label="Root canal system\narea calculation"]
-        pulpa -> area;
+        rootcanal -> area;
         #apex -> area;
         merge [label="Merged data for\nmanual physiological\nforamen analysis"]
-        pulpa -> merge;
+        rootcanal -> merge;
         edt -> merge;
         #{rank=same;threed;merge;edt}
         #{rank=same;briseno;merge;log}
@@ -78,11 +78,11 @@ digraph Workflow {
         #{ rank=min; crop; }
         
         #{rank=same;threed;crop;}
-        #{rank=same;apex;briseno;pulpa;}
+        #{rank=same;apex;briseno;rootcanal;}
         #{rank=same;dask;log;check}
         #{rank=same;crop;threed}
-        #{rank=same;apex;pulpa;briseno;}
-        #{rank=same;briseno;pulpa;edt}
+        #{rank=same;apex;rootcanal;briseno;}
+        #{rank=same;briseno;rootcanal;edt}
 
         {rank=max;merge;briseno;area;}
 
@@ -100,7 +100,7 @@ digraph Workflow {
 #        mid -> disk;
 #        mip -> disk;        
 #        briseno -> disk;
-#        pulpa -> disk;
+#        rootcanal -> disk;
 #        edt -> disk;
 #        merge -> disk;
 #        }
