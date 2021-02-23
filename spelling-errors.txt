@@ -10,7 +10,7 @@ Briseño
 Bruker
 Dask
 dataframe
-Dataset
+dataset
 datasets
 denoised
 ditkwidgets
@@ -46,7 +46,6 @@ Paqué
 Periodontology
 PNG
 preprint
-pulpa
 radicular
 README
 reproducibility
