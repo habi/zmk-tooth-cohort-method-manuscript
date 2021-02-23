@@ -3,7 +3,6 @@
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://habi.github.io/zmk-tooth-cohort-method-manuscript/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/habi/zmk-tooth-cohort-method-manuscript/workflows/Manubot/badge.svg)](https://github.com/habi/zmk-tooth-cohort-method-manuscript/actions)
-<!-- [![Travis Build Status](https://travis-ci.com/habi/zmk-tooth-cohort-method-manuscript.svg?branch=master)](https://travis-ci.com/habi/zmk-tooth-cohort-method-manuscript) -->
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
 ## Manuscript description
