@@ -21,7 +21,7 @@ endodontic
 extractedslices
 Fazzari
 foramen
-foramina
+Foramina
 Formlabs
 Gerhard
 Haberthür
@@ -63,7 +63,6 @@ Somerville
 statsmodels
 stereolithography
 Stiebritz
-susing
 TGW
 thresholding
 totalling
