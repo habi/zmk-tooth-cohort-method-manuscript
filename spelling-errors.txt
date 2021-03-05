@@ -12,7 +12,7 @@ Bruker
 Dask
 dataframe
 dataset
-Datasets
+datasets
 denoised
 ditkwidgets
 Djonov
@@ -22,7 +22,7 @@ endodontic
 extractedslices
 Fazzari
 foramen
-foramina
+Foramina
 Formlabs
 Gerhard
 Haberthür
@@ -76,4 +76,4 @@ voxels
 XIMEA
 xiRAY
 Zakhar
-zarr
+Zarr
