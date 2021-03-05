@@ -6,12 +6,13 @@ artefacts
 binarized
 bioRxiv
 BMC
+briseno
 Briseño
 Bruker
 Dask
 dataframe
 dataset
-datasets
+Datasets
 denoised
 ditkwidgets
 Djonov
@@ -21,7 +22,7 @@ endodontic
 extractedslices
 Fazzari
 foramen
-Foramina
+foramina
 Formlabs
 Gerhard
 Haberthür
@@ -40,6 +41,7 @@ MIP
 morphologic
 NRecon
 NumPy
+observator
 Oleksiy
 Otsu
 Paqué
@@ -58,6 +60,7 @@ scatterplot
 scikit
 SciPy
 semitransparently
+showes
 SkyScan
 Somerville
 statsmodels

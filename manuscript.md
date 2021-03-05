@@ -6,8 +6,8 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2021-03-04'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta name=\"citation_title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta property=\"og:title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta property=\"twitter:title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta name=\"dc.date\" content=\"2021-03-04\" />\n<meta name=\"citation_publication_date\" content=\"2021-03-04\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"David Haberth\xFCr\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3388-9187\" />\n<meta name=\"twitter:creator\" content=\"@habi\" />\n<meta name=\"citation_author\" content=\"Ruslan Hlushchuk\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6722-8996\" />\n<meta name=\"citation_author\" content=\"Thomas Gerhard Wolf\" />\n<meta name=\"citation_author_institution\" content=\"Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Periodontology and Operative Dentistry, University Medical Center of the Johannes-Gutenberg-University Mainz, Mainz, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4044-1893\" />\n<link rel=\"canonical\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"og:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/5e807b16ac2e386569de57f32a6678be4e8a29d2/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/5e807b16ac2e386569de57f32a6678be4e8a29d2/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/5e807b16ac2e386569de57f32a6678be4e8a29d2/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/habi/zmk-tooth-cohort-method-manuscript/raw/5e807b16ac2e386569de57f32a6678be4e8a29d2/content/images/Tooth045.manubot.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/habi/zmk-tooth-cohort-method-manuscript/raw/5e807b16ac2e386569de57f32a6678be4e8a29d2/content/images/Tooth045.manubot.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2021-03-05'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta name=\"citation_title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta property=\"og:title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta property=\"twitter:title\" content=\"Automated segmentation and description of the internal morphology of human permanent teeth by means of micro-CT\" />\n<meta name=\"dc.date\" content=\"2021-03-05\" />\n<meta name=\"citation_publication_date\" content=\"2021-03-05\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"David Haberth\xFCr\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3388-9187\" />\n<meta name=\"twitter:creator\" content=\"@habi\" />\n<meta name=\"citation_author\" content=\"Ruslan Hlushchuk\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6722-8996\" />\n<meta name=\"citation_author\" content=\"Thomas Gerhard Wolf\" />\n<meta name=\"citation_author_institution\" content=\"Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Periodontology and Operative Dentistry, University Medical Center of the Johannes-Gutenberg-University Mainz, Mainz, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4044-1893\" />\n<link rel=\"canonical\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"og:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/4802042a90ffd281b24bc64e9bc89d2038405449/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/4802042a90ffd281b24bc64e9bc89d2038405449/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/4802042a90ffd281b24bc64e9bc89d2038405449/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/habi/zmk-tooth-cohort-method-manuscript/raw/4802042a90ffd281b24bc64e9bc89d2038405449/content/images/Tooth045.manubot.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/habi/zmk-tooth-cohort-method-manuscript/raw/4802042a90ffd281b24bc64e9bc89d2038405449/content/images/Tooth045.manubot.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -24,15 +24,15 @@ title: Automated segmentation and description of the internal morphology of huma
 
 
 A preprint of this manuscript is available on *bioRxiv* at <https://doi.org/10.1101/2020.10.27.356998> and has been submitted to [*BMC Oral Health*](https://bmcoralhealth.biomedcentral.com/).
-This version of the manuscript [has been updated](https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...5e807b16ac2e386569de57f32a6678be4e8a29d2) since the preprint deposition.
+This version of the manuscript [has been updated](https://github.com/habi/zmk-tooth-cohort-method-manuscript/compare/f9b3333c625228f4f28211a34f381b9f87c430b0...4802042a90ffd281b24bc64e9bc89d2038405449) since the preprint deposition.
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/5e807b16ac2e386569de57f32a6678be4e8a29d2/))
+([permalink](https://habi.github.io/zmk-tooth-cohort-method-manuscript/v/4802042a90ffd281b24bc64e9bc89d2038405449/))
 was automatically generated
-from [habi/zmk-tooth-cohort-method-manuscript@5e807b1](https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/5e807b16ac2e386569de57f32a6678be4e8a29d2)
-on March 4, 2021.
+from [habi/zmk-tooth-cohort-method-manuscript@4802042](https://github.com/habi/zmk-tooth-cohort-method-manuscript/tree/4802042a90ffd281b24bc64e9bc89d2038405449)
+on March 5, 2021.
 </em></small>
 
 ## Authors
@@ -190,30 +190,6 @@ For quick visual assessment of each of the tooth scans, we extracted overview im
 After cropping the datasets, we extracted the middle slices and generated the maximum intensity projection (MIP) for each of the anatomical planes [@https://w.wiki/_K2r].
 Since the teeth were scanned rotationally invariant, the two anatomical planes along the long axis of the tooth (coronal and sagittal) are not related to the real tooth anatomy and simply correspond to the respective direction in the tomographic dataset.
 
-#### Root canal system classification
-
-To facilitate the global characterization of the tooth, we extracted slices at four defined locations along the tooth.
-These slices, located at the border between enamel and dentin (EDB), the bottom of the tooth and equidistantly between, were then used to describe the root canal configuration with a 4-digit system and to assess the number of main foramina, both according to a previously proposed method [@doi:10.1016/j.joen.2015.09.007].
-The location of extracted slices is shown in Figure @fig:3dmevislab.
-
-![Three-dimensional visualization of tooth sample 045.
-  This tooth is interesting as it features a 1-2-2/2 root canal configuration as defined by Briseño et al. [@doi:10.1016/j.joen.2015.09.007].
-  The extracted root canal is shown in red, the tooth itself is shown semitransparently.
-  The four slices which were automatically extracted based on the enamel-dentin border are also visualized semitransparently in their correct 3D position.
-  The whole tooth has a length of 2.39 cm.
-  A [video of the 3D visualization is found in the supplementary materials](https://github.com/habi/zmk-tooth-cohort-method-manuscript/blob/master/content/images/tooth045.mp4?raw=true) of this manuscript.](images/Tooth045.MeVisLab.png){#fig:3dmevislab}
-
-This was done by calculating the brightness value along the longest axis of the tooth followed by smoothing of the curve using a [locally weighted scatterplot smoothing](https://www.statsmodels.org/devel/generated/statsmodels.nonparametric.smoothers_lowess.lowess.html) implemented in the *statsmodels* library (version 0.10.1) [@statsmodels].
-By finding the maximal derivation of this curve with *NumPy* (version 1.17.2) [@doi:10.1109/mcse.2011.37], we were easily able to detect the EDB.
-From the part of the tooth below the detected border, we then extracted four equidistant slices.
-These slices and an overview of the tooth were written to a separate file for each sample, facilitating characterization of each tooth without manually looking for the correct axial reconstruction (see Figure @fig:extractedslices).
-
-![Slice extraction for characterization of a tooth.
-  This tooth features a 1-1-1/1 root canal configuration as defined by Briseño et al. [@doi:10.1016/j.joen.2015.09.007].
-  The blue line in the two leftmost panels shows the gray value plot along the longest tooth axis, the orange line shows the smoothed plot.
-  Based on the largest derivation we detect the enamel-dentin border at slice 1116 of this dataset.
-  Based on the bottom around slice 2839 we extracted the equidistant slices in-between.](images/ExtractedSlices.png){#fig:extractedslices}
-
 #### Root canal extraction
 
 It was of paramount importance for the analysis to visualize the root canal system inside the tooth.
@@ -231,13 +207,46 @@ Display of the datasets for visual assessment was done with *itkwidgets* (versio
   This tooth is interesting as it features a 1-2-2/2 root canal configuration as defined by Briseño et al. [@doi:10.1016/j.joen.2015.09.007].
   The whole tooth has a length of 2.39 cm.](images/Tooth045.itkwidgets.png){#fig:3ditkwidgets}
 
+#### Root canal system classification
+
+To facilitate the global characterization of the tooth, we extracted slices at four defined locations along the tooth.
+These slices, located at the border between enamel and dentin (EDB), the bottom of the tooth and equidistantly between, were then used to describe the root canal configuration (as extracted above in subsection [Root canal extraction]) with a 4-digit system and to assess the number of main foramina, both according to a previously proposed method [@doi:10.1016/j.joen.2015.09.007].
+The three-dimensional location of these extracted slices is shown in Figure @fig:3dmevislab.
+
+![Three-dimensional visualization of tooth sample 045.
+  This tooth is interesting as it features a 1-2-2/2 root canal configuration as defined by Briseño et al. [@doi:10.1016/j.joen.2015.09.007].
+  The extracted root canal is shown in red, the tooth itself is shown semitransparently.
+  The four slices which were automatically extracted based on the enamel-dentin border are also visualized semitransparently in their correct 3D position.
+  The whole tooth has a length of 2.39 cm.
+  A [video of the 3D visualization is found in the supplementary materials](https://github.com/habi/zmk-tooth-cohort-method-manuscript/blob/master/content/images/tooth045.mp4?raw=true) of this manuscript.](images/Tooth045.MeVisLab.png){#fig:3dmevislab}
+
+We calculated the brightness value along the longest axis of the tooth followed by smoothing of the curve using a [locally weighted scatterplot smoothing](https://www.statsmodels.org/devel/generated/statsmodels.nonparametric.smoothers_lowess.lowess.html) implemented in the *statsmodels* library (version 0.10.1) [@statsmodels].
+By finding the maximal derivation of this curve with *NumPy* (version 1.17.2) [@doi:10.1109/mcse.2011.37], we were easily able to detect the EDB (see the two left panels in Figure @fig:briseno).
+For small regions of 400 µm around these four equidistant slices to be extracted for the Briseño classification, we we wrote the minimum gray value to the resulting image.
+As a consequence this increased the visible noise for these regions but greatly helped to classify accessory canals in these regions (as shown in the four right panels in Figure @fig:briseno).
+These regions and an overview of the tooth were written to an image for each sample to help with an efficient manual characterization of each tooth without manually looking for the correct axial reconstruction (see Figure @fig:extractedslices).
+
+![Slice extraction for characterization of a tooth.
+  This tooth features a 1-1-1/1 root canal configuration as defined by Briseño et al. [@doi:10.1016/j.joen.2015.09.007].
+  The blue line in the two leftmost panels shows the gray value plot along the longest tooth axis, the orange line shows the smoothed plot.
+  Based on the largest derivation we detect the enamel-dentin border at slice 1116 of this dataset.
+  Based on the bottom around slice 2839 we extracted the equidistant slices in-between.](images/Tooth036.ExtractedSlices.png){#fig:extractedslices}
+
+To further aid the manual classification of each tooth we used the [`label`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.label.html) function of the *SciPy* library to count the root canal or root canals in each extracted slice and thus automatically extract the Briseño classification [@doi:10.1016/j.joen.2015.09.007] for each tooth.
+An example of such an automated extraction (for the same tooth as shown in Figure @fig:extractedslices) is shown in Figure @fig:briseno.
+
+![Automatic classification of the extracted tooth slices.
+  This tooth features a 1-1-1/1 root canal configuration as defined by Briseño et al. [@doi:10.1016/j.joen.2015.09.007].
+  Our very simple automatic classification showes a 1-1-1/1 root canal configuration due to a tiny cavity at the apex of the tooth.
+  All automatically extracted classifications are only extracted to aid a the skilled observator fully describing the teeth; this tooth here will be of course correctly classified as '1-1-1/1'.](images/Tooth036.Briseno.png){#fig:briseno}
+
 ### Analysis of the physiological foramen geometry
 
 The apical foramen of the teeth was evaluated as previously described [@doi:10.1038/ijos.2017.29] by assessing the bottom part of each tooth using *Fiji* (version 1.53c) [@doi:10.1038/nmeth.2019] to scroll through the stack of images and measure the diameter of the physiological and anatomical foramen as well as the distance between the physiological and anatomical foramina.
 The physiological (main) foramen was defined as one with a diameter of 0.20 mm or more.
 Foramina with diameters smaller than 0.20 mm were defined as accessory ones [@doi:10.1038/ijos.2017.29].
 Since we have extracted the root canal for each tooth, we can easily calculate its diameter at each point, that is, exactly calculate the exact Euclidean distance transform (EDT) where each 3D voxel of the root canal is labelled with its distance relative to the background (wall of the canal).
-We used the [`morphology.distance_transform_edt`](https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.ndimage.morphology.distance_transform_edt.html) function of the *SciPy* [@doi:10.1038/s41592-019-0686-2] library for this.
+We used the [`morphology.distance_transform_edt`](https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.ndimage.morphology.distance_transform_edt.html) function of the *SciPy* library for this.
 To aid the assessment of the geometry of the physiological foramen, we extracted the bottom 3.5 mm part of each tooth, merged the reconstructed slices of the data with the calculated EDT from the root canal and wrote this data to disk reformatted into sagittal
 slices.
 In such a way, the radius of the largest sphere fitted into the root canal system at each point can easily be read off the image upon visual examination.
