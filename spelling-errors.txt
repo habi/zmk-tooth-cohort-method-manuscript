@@ -12,7 +12,7 @@ Bruker
 Dask
 dataframe
 dataset
-Datasets
+datasets
 denoised
 ditkwidgets
 Djonov
@@ -76,4 +76,4 @@ voxels
 XIMEA
 xiRAY
 Zakhar
-Zarr
+zarr
