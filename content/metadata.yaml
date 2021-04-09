@@ -13,7 +13,7 @@ authors:
     twitter: habi
     email: david.haberthuer@ana.unibe.ch
     affiliations:
-      - Institute of Anatomy, University of Bern, Switzerland
+      - Institute of Anatomy, University of Bern, Bern, Switzerland
     symbol_str: "✉"
   - github: RuslanHlushchuk
     name: Ruslan Hlushchuk
@@ -21,14 +21,14 @@ authors:
     orcid: 0000-0002-6722-8996
     email: ruslan.hlushchuk@ana.unibe.ch
     affiliations:
-      - Institute of Anatomy, University of Bern, Switzerland
+      - Institute of Anatomy, University of Bern, Bern, Switzerland
     symbol_str: "☯"
   - name: Thomas Gerhard Wolf
     initials: TGW
     orcid: 0000-0002-4044-1893
     email: thomas.wolf@zmk.unibe.ch
     affiliations:
-      - Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Switzerland
+      - Department of Restorative, Preventive and Pediatric Dentistry, School of Dental Medicine, University of Bern, Bern, Switzerland
       - Department of Periodontology and Operative Dentistry, University Medical Center of the Johannes-Gutenberg-University Mainz, Mainz, Germany
     symbol_str: "☯"
 thumbnail: content/images/Tooth045.manubot.png
