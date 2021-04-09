@@ -8,7 +8,6 @@ BMC
 briseno
 Briseño
 Bruker
-configuratio
 Dask
 dataframe
 dataset
@@ -72,4 +71,4 @@ voxels
 XIMEA
 xiRAY
 Zakhar
-zarr
+Zarr

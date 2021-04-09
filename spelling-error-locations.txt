@@ -122,7 +122,6 @@ content/04.materials.methods.md:114:SciPy
 content/04.materials.methods.md:115:briseno
 content/04.materials.methods.md:115:extractedslices
 content/04.materials.methods.md:117:Briseño
-content/04.materials.methods.md:118:configuratio
 content/04.materials.methods.md:118:extractedslices
 content/04.materials.methods.md:119:briseno
 content/04.materials.methods.md:119:Briseno
