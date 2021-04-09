@@ -12,7 +12,7 @@ configuratio
 Dask
 dataframe
 dataset
-datasets
+Datasets
 denoised
 ditkwidgets
 Djonov
