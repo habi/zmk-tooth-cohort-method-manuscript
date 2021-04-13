@@ -9,7 +9,7 @@ Briseño
 Bruker
 Dask
 dataframe
-dataset
+Dataset
 datasets
 denoised
 ditkwidgets
@@ -69,4 +69,4 @@ voxels
 XIMEA
 xiRAY
 Zakhar
-Zarr
+zarr
