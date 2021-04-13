@@ -3,7 +3,6 @@ Anderegg
 anonymized
 artefacts
 binarized
-bioRxiv
 BMC
 briseno
 Briseño
@@ -11,7 +10,7 @@ Bruker
 Dask
 dataframe
 dataset
-datasets
+Datasets
 denoised
 ditkwidgets
 Djonov
@@ -44,7 +43,6 @@ Otsu
 Paqué
 Periodontology
 PNG
-preprint
 radicular
 README
 reproducibility
