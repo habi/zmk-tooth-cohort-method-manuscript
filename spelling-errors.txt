@@ -10,7 +10,7 @@ Bruker
 Dask
 dataframe
 dataset
-Datasets
+datasets
 denoised
 ditkwidgets
 Djonov
