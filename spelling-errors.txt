@@ -9,7 +9,7 @@ Briseño
 Bruker
 Dask
 dataframe
-Dataset
+dataset
 datasets
 denoised
 ditkwidgets
@@ -20,7 +20,7 @@ endodontic
 extractedslices
 Fazzari
 foramen
-foramina
+Foramina
 Formlabs
 Gerhard
 Haberthür
@@ -69,4 +69,4 @@ voxels
 XIMEA
 xiRAY
 Zakhar
-zarr
+Zarr
